@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 	"os"
+	"time"
 )
 
 func main() {
+	start := time.Now()
 	// 変数宣言時に、初期化の値が明示的に指定されない時は
 	// それぞれの方に対するゼロ値が設定される
 	// intは0,stringは""など nilではない
@@ -18,4 +20,6 @@ func main() {
 		s += sep + os.Args[i]
 	}
 	fmt.Println(s)
+	end := time.Now()
+	fmt.Printf("time=%f\n", end.Sub(start).Seconds())
 }
