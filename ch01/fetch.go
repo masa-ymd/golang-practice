@@ -23,7 +23,7 @@ func main() {
 		// b, err := ioutil.ReadAll(resp.Body)
 		// Streamを利用することにより、メモリ利用を効率化できる
 		_, err = io.Copy(os.Stdout, resp.Body)
-		// resp.Body.Close()
+		resp.Body.Close()
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "fetch: reading %s: %v\n", url, err)
 			os.Exit(1)
