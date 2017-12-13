@@ -16,3 +16,13 @@
 * 低レベルプログラミング用の型uintptrもある
 * runeはint32のシノニム、byteはint8のシノニム
 
+# 3.2 浮動小数点数
+
+* float32, float64がある
+* float32は誤差が発生しやすいので、通常はfloat64を利用する
+* NaNは0で割るなど数学的に疑わしい演算の結果を表すが、NaNとの比較は必ずfalseになるので注意
+
+# 3.3 複素数
+
+* complex64とcomplex128があり、実部と虚部はfloat32, float64
+* complex関数で複素数を実部、虚部から生成 real, imag関数で実部、虚部成分を取り出せる
