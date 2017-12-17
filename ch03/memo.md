@@ -31,3 +31,21 @@
 
 * 左オペランドの値ですでに答えが決定していれば、右オペランドは評価されない
 * s != "" && s[0] == "" でs==""なら右の評価はしないで終了する
+
+# 3.5 文字列
+
+* 文字列の値は不変のため、s[0] = 'L'のような構文は不可
+
+## 3.5.1 文字列リテラル
+
+* リテラルとは、数値や文字列を直接に記述した定数のことで、 変数の対義語であり、変更されないことを前提とした値である。
+* マルチバイト文字列について
+* asciiが0-127までマルチバイトは128-255を複数桁組み合わせて用いる
+* https://qiita.com/mpyw/items/a8dba1b80fe68523b8eb
+* http://d.hatena.ne.jp/snaka72/20100710/SUMMARY_ABOUT_JAPANESE_CHARACTER_CODE
+* UTFとunicodeの違いについて
+* https://qiita.com/kasei-san/items/fd0adedc398480cf4ce8
+* unicodeを保持するのに適したデータ型はint32->runeというシノニムをもつ
+* UTF-8は長さ可変で効率が良い
+* unicodeは16進数、unicodeエスケープを使った16ビット形式、32ビット形式で表現できる
+* https://seiai.ed.jp/sys/text/csd/mcodes/ucodeindex.html
