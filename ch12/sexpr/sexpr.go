@@ -37,7 +37,7 @@ func encode(buf *bytes.Buffer, v reflect.Value) error {
 			if i > 0 {
 				buf.WriteByte(' ')
 			}
-			fmt.Fprintf(buf, "(%s", v.Type().Field(i).Name)
+			fmt.Fprintf(buf, "(%s ", v.Type().Field(i).Name)
 			if err := encode(buf, v.Field(i)); err != nil {
 				return err
 			}
