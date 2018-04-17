@@ -1,7 +1,6 @@
 package equal
 
 import (
-	"fmt"
 	"reflect"
 	"unsafe"
 )
@@ -18,7 +17,6 @@ func equal(x, y reflect.Value, seen map[comparison]bool) bool {
 	if x.Kind() != y.Kind() {
 		return false
 	}
-	fmt.Println("start", x.Kind(), y.Kind())
 
 	if x.CanAddr() && y.CanAddr() {
 		xptr := unsafe.Pointer(x.UnsafeAddr())
@@ -35,17 +33,13 @@ func equal(x, y reflect.Value, seen map[comparison]bool) bool {
 
 	switch x.Kind() {
 	case reflect.Bool:
-		fmt.Println("teeest")
 		return x.Bool() == y.Bool()
 
 	case reflect.String:
-		fmt.Println("String Check")
-		fmt.Println(x.String(), y.String())
 		return x.String() == y.String()
 
 	case reflect.Int, reflect.Int8, reflect.Int16,
 		reflect.Int32, reflect.Int64:
-		fmt.Printf("%v, %v\n", x.Int(), y.Int())
 		return int64(x.Int()) == int64(y.Int())
 
 	case reflect.Uint, reflect.Uint8, reflect.Uint16,
@@ -76,13 +70,12 @@ func equal(x, y reflect.Value, seen map[comparison]bool) bool {
 		return true
 
 	case reflect.Struct:
-		fmt.Printf("Struct Check\n")
 		for i, n := 0, x.NumField(); i < n; i++ {
 			if !equal(x.Field(i), y.Field(i), seen) {
 				return false
 			}
-			return false
 		}
+		return true
 
 	case reflect.Map:
 		if x.Len() != y.Len() {
