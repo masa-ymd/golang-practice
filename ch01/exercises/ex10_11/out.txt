@@ -1,0 +1,1828 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="description" content="u@niftyiƒAƒbƒgEƒjƒtƒeƒBjvƒCƒ“ƒ^[ƒlƒbƒgEƒT[ƒrƒXƒvƒƒoƒCƒ_[‚Ì‚²ˆÄ“àB‚Ç‚È‚½‚Å‚àŠy‚µ‚ß‚éƒT[ƒrƒX‚ğ’ñ‹Ÿ‚µ‚Ä‚¢‚Ü‚·B" />
+<meta name="keywords" content="@nifty,ƒAƒbƒgEƒjƒtƒeƒB,ƒvƒƒoƒCƒ_[,ƒCƒ“ƒ^[ƒlƒbƒg" />
+<meta name="msapplication-starturl" content="https://www.nifty.com/?msapp" />
+<meta name="msapplication-navbutton-color" content="#FF9900" />
+<meta name="msapplication-task" content="name=Mail@nifty;action-uri=http://clink.nifty.com/r/www/top_msapp/?http://www.nifty.com/mail/;icon-uri=https://www.nifty.com/favicon.ico" />
+<meta name="msapplication-task" content="name=ƒZƒJƒ“ƒhƒ[ƒ‹;action-uri=http://clink.nifty.com/r/www/top_msapp/?http://www.nifty.com/mail/mailaccount/;icon-uri=https://www.nifty.com/favicon.ico" />
+<meta name="msapplication-task" content="name=‰ïˆõƒTƒ|[ƒg;action-uri=http://clink.nifty.com/r/www/top_msapp/?https://support.nifty.com/;icon-uri=https://www.nifty.com/favicon.ico" />
+<meta name="msapplication-task" content="name=‰ïˆõŒü‚¯ƒT[ƒrƒX;action-uri=http://clink.nifty.com/r/www/top_msapp/?http://www.nifty.com/member/;icon-uri=https://www.nifty.com/favicon.ico "/>
+<meta name="msapplication-task" content="name=‚¨‹q—lî•ñ^‚²—˜—p–¾×;action-uri=http://clink.nifty.com/r/www/top_msapp/?https://support.nifty.com/support/member/;icon-uri=https://www.nifty.com/favicon.ico "/>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<noscript>
+<meta http-equiv="Refresh" content="0;URL=https://www.nifty.com/text/" />
+</noscript>
+<meta name="slice" scheme="IE" content="off" />
+<meta property="og:title" content="@nifty"><meta property="og:url" content="https://www.nifty.com/"><meta property="og:description" content="u@niftyiƒAƒbƒgEƒjƒtƒeƒBjvƒCƒ“ƒ^[ƒlƒbƒgEƒT[ƒrƒXƒvƒƒoƒCƒ_[‚Ì‚²ˆÄ“àB‚Ç‚È‚½‚Å‚àŠy‚µ‚ß‚éƒT[ƒrƒX‚ğ’ñ‹Ÿ‚µ‚Ä‚¢‚Ü‚·B"><meta property="og:image" content="https://www.nifty.com/misc_top/images/OGP_pc.png">
+<link rel="shortcut icon" href="https://www.nifty.com/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://search.nifty.com/search/v8/xml/nifty_websearch_searchbox.xml" title="&quot;@niftyƒEƒFƒuŒŸõ&quot;" />
+<link rel="stylesheet" href="misc_top/css/style_180425.css" type="text/css" media="all" />
+<link rel="default-slice" href="#News" type="application/x-hatom" />
+<link rel="stylesheet" type="text/css" href="misc_top/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="apple-touch-icon" href="smp/images/apple-touch-icon_170313.png" />
+<link rel="canonical" href="https://www.nifty.com" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.nifty.com/smp/" />
+<link rel="preconnect dns-prefetch" href="//js.rtoaster.jp" />
+<link rel="preconnect dns-prefetch" href="//l.logly.co.jp" />
+<link rel="preconnect dns-prefetch" href="//track.nifty.com" />
+<link rel="preconnect dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="preconnect dns-prefetch" href="//rt.rtoaster.jp" />
+<link rel="preconnect dns-prefetch" href="//tag.nifty.com" />
+<link rel="preconnect dns-prefetch" href="//www.google-analytics.com" />
+<link rel="preconnect dns-prefetch" href="//sso.nifty.com" />
+<link rel="preconnect dns-prefetch" href="//pagead2.googlesyndication.com" />
+<link rel="preconnect dns-prefetch" href="//ads.rubiconproject.com" />
+<link rel="preconnect dns-prefetch" href="//partner.googleadservices.com" />
+<script type="text/javascript">
+//<![CDATA[
+var checkBrowserType=function(){var A=navigator.userAgent;this.IE=(A.indexOf("MSIE")!==-1);this.IENew=(A.indexOf("Trident")!==-1);this.Edge=(A.indexOf("Edge")!==-1);this.Gecko=(A.indexOf("Gecko")!==-1);this.Firefox=(A.indexOf("Firefox")!==-1);this.IE11=(A.indexOf("Trident/7.0")!==-1);this.IE10=(A.indexOf("Trident/6.0")!==-1);this.IE9=(A.indexOf("Trident/5.0")!==-1);this.IE8=(A.indexOf("Trident/4.0")!==-1);this.IE7=(A.indexOf("MSIE 7.")!==-1)&&(A.indexOf("Trident/4.0")===-1)&&(A.indexOf("Trident/5.0")===-1);this.IE6=(A.indexOf("MSIE 6.")!==-1)&&(A.indexOf("Trident/4.0")===-1)&&(A.indexOf("MSIE 7.")===-1);this.IE5=(A.indexOf("MSIE 5.")!==-1);this.IE50=(A.indexOf("MSIE 5.0")!==-1);this.IE4=(A.indexOf("MSIE 4.")!==-1);this.IE3=(A.indexOf("MSIE 3.")!==-1);this.Opera=(A.indexOf("Opera")!==-1);this.Chrome=(A.indexOf("Chrome")!==-1)&&(A.indexOf("Edge")===-1);this.Safari=(A.indexOf("Safari")!==-1)&&(A.indexOf("Chrome")===-1)&&(A.indexOf("Silk")===-1)&&(A.indexOf("Kindle")===-1)&&(A.indexOf("Edge")===-1);this.Safari2=(A.indexOf("Safari")!==-1)&&(A.indexOf("Chrome")===-1)&&(A.indexOf("Version")===-1)&&(A.indexOf("CriOS")===-1)&&(A.indexOf("Silk")===-1)&&(A.indexOf("Edge")===-1);this.NS=(A.indexOf("Netscape")!==-1);this.iPhone=(A.indexOf("iPhone")!==-1);this.iPod=(A.indexOf("iPod")!==-1);this.Android=(A.indexOf("Android")!==-1);this.Android3=(A.indexOf("Android 3")!==-1);this.Android1=(A.indexOf("Android 1")!==-1);this.Android2=(A.indexOf("Android 2")!==-1);this.AndroidTab=(A.indexOf("Android")!==-1)&&(A.indexOf("Mobile")===-1);this.iPad=(A.indexOf("iPad")!==-1);this.Kindle=(A.indexOf("Silk")!==-1)||(A.indexOf("Kindle")!==-1);this.MSafari=(A.indexOf("Mobile")!==-1)&&(A.indexOf("Safari")!==-1);this.FOSMB=(A.indexOf("Mobile")!==-1)&&(A.indexOf("Firefox")!==-1)&&(A.indexOf("Android")===-1);this.FOSTB=(A.indexOf("Tablet")!==-1)&&(A.indexOf("Firefox")!==-1)&&(A.indexOf("Android")===-1);this.MFirefox=(A.indexOf("Mobile")!==-1)&&(A.indexOf("Firefox")!==-1)&&(A.indexOf("Android")!==-1);this.TFirefox=(A.indexOf("Tablet")!==-1)&&(A.indexOf("Firefox")!==-1)&&(A.indexOf("Android")!==-1)};(function(){var B=new checkBrowserType();if(B.iPhone||B.iPod||B.Android1||B.Android2||(B.Android&&B.MSafari)||B.FOSMB||B.MFirefox){if(location.search!=="?pc"){var p=location.search.substr(1)||"top";location.href="https://www.nifty.com/smp/?"+p}}else{if(B.IE6||B.IE5||B.IE50||B.IE4||B.IE3||B.Safari2||B.NS){location.href="https://www.nifty.com/text/"}}})();
+var tsEnvDef=function(){
+	this.grptg="g20160721";
+	this.grp="20";
+	this.ptrn={"pt":[
+		{"name":"test01","val":"01"},
+		{"name":"test02","val":"02"},
+		{"name":"test03","val":"03"},
+		{"name":"test04","val":"04"}
+	]};
+	this.tm=90;
+}
+//]]>
+</script>
+
+<script type="text/javascript" src="misc_top/js/jquery-1.4.2.min-lib.js" charset="Shift_JIS"></script>
+<script type="text/javascript" src="misc_top/js/niftop_js_180426.txt" charset="Shift_JIS"></script>
+<script type="text/javascript" src="//js.rtoaster.jp/Rtoaster.js"></script>
+<script type="text/javascript">
+Rtoaster.init("RTA-bc8a-4cbf97a36acb",Rtoaster.Cookie.get("NT_CID"));
+Rtoaster.track({
+"dcw": Rtoaster.Cookie.get("dcw"),
+"dcu": Rtoaster.Cookie.get("dcu"),
+"dcs": Rtoaster.Cookie.get("dcs"),
+"dct": Rtoaster.Cookie.get("dct"),
+"dcl": Rtoaster.Cookie.get("dcl")
+});
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+window.NIFTY = window.NIFTY || {};
+window.NIFTY.niftop = window.NIFTY.niftop || {};
+window.NIFTY.niftop.maxPrize = 3000;
+window.NIFTY.niftop.buildDate = "2018/05/02 00:42:25";
+window.NIFTY.niftop.openDate = "2018/04/02 14:30:00";
+window.NIFTY.niftop.closeDate = "2018/05/21 11:00:00";
+//]]>
+</script>
+
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/48012543/NIFTY_PC/TOP/RECT', [[300, 250], [300, 600]], 'div-gpt-ad-1443679865978-0').addService(googletag.pubads());
+    googletag.defineSlot('/48012543/NIFTY_PC/TOP/RECT_2nd', [[300, 250], [300, 600]], 'div-gpt-ad-1443679865978-1').addService(googletag.pubads());
+    googletag.defineSlot('/48012543/NIFTY_PC/TOP/MBNR', [468, 60], 'div-gpt-ad-1443679865978-2').addService(googletag.pubads());
+    googletag.defineSlot('/48012543/NIFTY_PC/TOP/FBNR', [[728, 90], [950, 180]], 'div-gpt-ad-1443679865978-3').addService(googletag.pubads());
+    googletag.defineSlot('/48012543/NIFTY_PC/TOP/MBNR_2nd', [468, 60], 'div-gpt-ad-1443679865978-7').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<title>@nifty</title>
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P7B5MN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P7B5MN');</script>
+<!-- End Google Tag Manager -->
+
+<p class="skipNav">
+	<a href="#srchForm"><img src="images/space.gif" width="1" height="1" alt="ŒŸõ‚ÖƒWƒƒƒ“ƒv " /></a>
+	<a href="#menu"><img src="images/space.gif" width="1" height="1" alt="ƒƒjƒ…[‚ÖƒWƒƒƒ“ƒv" /></a>
+	<a href="#mainContents"><img src="images/space.gif" width="1" height="1" alt="ƒjƒ…[ƒXAƒT[ƒrƒXî•ñAƒIƒŠƒWƒiƒ‹“Ç‚İ•¨‚ÖƒWƒƒƒ“ƒv" /></a>
+	<a href="#LoginArea"><img src="images/space.gif" width="1" height="1" alt="ƒƒOƒCƒ“iƒp[ƒ\ƒiƒ‹jƒGƒŠƒA‚ÖƒWƒƒƒ“ƒv" /></a>
+	<a href="#niftyInfo"><img src="images/space.gif" width="1" height="1" alt="ƒAƒbƒgEƒjƒtƒeƒB‚©‚ç‚Ì‚¨’m‚ç‚¹‚ÖƒWƒƒƒ“ƒv" /></a>
+</p>
+
+<script type="text/javascript">
+//<![CDATA[
+setGrp();
+callUserDataCGI();
+fbox($);
+NIFTY.niftop.skin = [["","0"],["design130215.css","0"],["design130215.css","0"],["design130215.css","0"],["design130215.css","0"],["design130215.css","0"],["design130215.css","0"],["design130215.css","0"],["design130215.css","0"],["design130215.css","0"],["","0"],["","0"],["","0"],["design151029.css","0"],["design151029.css","0"],["design151029.css","0"],["design151029.css","0"],["design151029.css","0"],["design151029.css","0"],["design151029.css","0"]
+
+];
+setDsn(1);
+//]]>
+</script>
+<div id="wrapper">
+
+<div id="outline">
+
+<div id="head">
+
+<div class="hdInr"><!--
+--></div>
+
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+	var tmp='';
+if(loadCookie("mpri")!=="180424252328"){
+	tmp='<div id="headInfomation" style="background-color:#71f2ff;display:none;"><div class="inner"><a href="https://nifmo.nifty.com/sale/gw_sale/?utm_source=nifty&utm_medium=display&utm_campaign=nifmo_top_priority_0427" onmousedown="return countlink(\'www\',\'toppriority_pr_cli\',this.href);"><img src="/cms_image/niftop/topPriority1/180424252328/20180427-06_NifMo.png" height="47" width="950" alt="NifMo GW‚Ü‚é‚²‚ÆƒZ[ƒ‹"  title="NifMo GW‚Ü‚é‚²‚ÆƒZ[ƒ‹"   /></a><p class="toppriority_pr_cls" onclick="saveCookie(\'mpri\',\'180424252328\');$(this).parents(\'#headInfomation\').remove();" onmousedown="return countlink(\'www\',\'toppriority_pr_cls\',\'https://www.nifty.com/\');"><span>•Â‚¶‚é</span></p></div></div>';
+}
+	document.write(tmp);
+})();
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var getDis=function(){
+	var DisAr = new Array();
+	DisAr[0] = new Array();
+	DisAr[0]["level"] = "7";
+	DisAr[0]["type"] = "quake";
+	DisAr[0]["area"] = "H“cŒ§“à—¤“ì•”";
+	DisAr[0]["scale"] = "3";
+	DisAr[0]["opdate"] = new Date(2018, 04 - 1, 29, 17, 47, 0);
+	DisAr[0]["update"] = new Date(2018, 04 - 1, 29, 17, 52, 0);
+	DisAr[1] = new Array();
+	DisAr[1]["level"] = "7";
+	DisAr[1]["type"] = "quake";
+	DisAr[1]["area"] = "¼•\“‡•t‹ß";
+	DisAr[1]["scale"] = "3";
+	DisAr[1]["opdate"] = new Date(2018, 04 - 1, 28, 00, 59, 0);
+	DisAr[1]["update"] = new Date(2018, 04 - 1, 28, 01, 04, 0);
+	DisAr[2] = new Array();
+	DisAr[2]["level"] = "6";
+	DisAr[2]["type"] = "quake";
+	DisAr[2]["area"] = "ªº”¼“‡“ì“Œ‰«";
+	DisAr[2]["scale"] = "4";
+	DisAr[2]["opdate"] = new Date(2018, 04 - 1, 24, 17, 53, 0);
+	DisAr[2]["update"] = new Date(2018, 04 - 1, 24, 17, 58, 0);
+	DisAr[3] = new Array();
+	DisAr[3]["level"] = "7";
+	DisAr[3]["type"] = "quake";
+	DisAr[3]["area"] = "V“‡E_’Ã“‡‹ßŠC";
+	DisAr[3]["scale"] = "3";
+	DisAr[3]["opdate"] = new Date(2018, 04 - 1, 23, 05, 49, 0);
+	DisAr[3]["update"] = new Date(2018, 04 - 1, 23, 05, 54, 0);
+	DisAr[4] = new Array();
+	DisAr[4]["level"] = "7";
+	DisAr[4]["type"] = "quake";
+	DisAr[4]["area"] = "“‡ªŒ§¼•”";
+	DisAr[4]["scale"] = "3";
+	DisAr[4]["opdate"] = new Date(2018, 04 - 1, 23, 01, 01, 0);
+	DisAr[4]["update"] = new Date(2018, 04 - 1, 23, 01, 08, 0);
+	return DisAr;
+}
+displayDisaster(new Date(2018, 05 - 1, 02, 00, 42, 0));
+//]]>
+</script>
+
+<div id="chgDsgn" class="chgDsgn" style="display:none;"></div>
+
+<div class="hdBg">
+
+<div class="hdInr">
+
+<div id="header">
+
+	<div class="pkg">
+		<div class="hdmText floatL">
+			<p class="floatL fontS">
+				<span id="nifty_top_homeset" style="behavior:url(#default#homepage)"></span>
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+	var h='';
+	var url = location.href;
+	var bType=new checkBrowserType();
+	var osType=new checkOsType();
+	if(-1===url.indexOf('"') && -1===url.indexOf("'") && bType.IE && osType.Win && !bType.Opera && !$('#nifty_top_homeset').get(0).isHomePage(url)){
+		h='<a href="javascript:void(0);" onmousedown="return countlink(\'www\',\'toptop_home\',\'https://www.nifty.com/\');" onclick="(function(){$(\'#setstartpage\').get(0).style.behavior=\'url(#default#homepage)\';var set=$(\'#setstartpage\').get(0);set.setHomePage(\''+url+'\');if(set.isHomePage(\''+url+'\')){$(\'#setstartpage\').removeAttr(\'onclick\').attr(\'href\',\'https://www.nifty.com/navi/startpage/\');}})();return false;" id="setstartpage" class="arrR mrgR5">ƒz[ƒ€ƒy[ƒW‚Éİ’è</a>';
+	}
+	else if(bType.Firefox){
+		h='<a href="javascript:void(0);" onmousedown="return countlink(\'www\',\'toptop_home\',\'https://www.nifty.com/\');" onclick="openFFhomeset();" class="arrR mrgR5">ƒz[ƒ€ƒy[ƒW‚Éİ’è</a>';
+	}
+	else{
+		h='<a href="https://www.nifty.com/navi/startpage/" onmousedown="return countlink(\'www\',\'toptop_home\',this.href);" class="arrR mrgR5">ƒz[ƒ€ƒy[ƒW‚Éİ’è</a>';
+	}
+	document.write(h);
+})();
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+dspDsn(1);
+//]]>
+</script>
+				<a href="/navi/howto/" onmousedown="return countlink('www','toptop_howto',this.href);" class="arrR mrgR5">g‚¢•û</a>
+				<a href="//www.nifty.com/text/" onmousedown="return countlink('www','toptop_text',this.href);" class="arrR mrgR5">ƒeƒLƒXƒg”Å</a>
+				<a href="https://fun.nifty.com/?utm_source=nifty_top&utm_campaign=rightcolumn&utm_medium=nifty" onmousedown="return countlink('www','toptop_point',this.href);" class="arrR">ƒ|ƒCƒ“ƒg’Ê’ </a>
+			</p>
+		</div>
+		<div class="hdmLogin floatR" id="headLoginInfo"></div>
+<script type="text/javascript">
+//<![CDATA[
+NIFTY.niftop.billFlg=0;
+//]]>
+</script>
+
+	</div>
+	<div id="receptionistNumber">
+		<p class="text">
+			<span>“ü‰ï‘Š’kEƒR[ƒX•ÏX 0120-50-2210iƒtƒŠ[ƒR[ƒ‹j10`19</span>
+		</p>
+	</div>
+</div>
+<!--/#header -->
+
+<hr />
+
+<div id="contentsTop" class="pkg mrgB5">
+
+	<div id="logo">
+		<div class="pkg">
+			<h1><a href="javascript:void(0);" onclick="logoClk();return false;" rel="nofollow"><img src="images/logo_170313.png" alt="ƒAƒbƒgEƒjƒtƒeƒB" width="167" height="43" /></a></h1>
+			<p class="sub"><a href="http://niftygame.cocolog-nifty.com/blog/gegegenokitaroucp.html" onmousedown="return countlink('www','toplogo_03',this.href);"><img src="/cms_image/niftop/logo/180427252719/20180428_game.png" height="64" width="60" alt="@niftyƒQ[ƒ€uƒQƒQƒQ‚Ì‹S‘¾˜Y —d‰ö‰¡’šv"  title="@niftyƒQ[ƒ€uƒQƒQƒQ‚Ì‹S‘¾˜Y —d‰ö‰¡’šv"   /></a></p>
+		</div>
+		<p id="clockInfo" class="time pddL10"></p>
+	</div>
+<script type="text/javascript">
+//<![CDATA[
+anvInit(5);
+//]]>
+</script>
+
+	<!--#unitSrch -->
+	<div id="unitSrch" class="floatL">
+
+		<div class="pkg">
+
+		<!--search -->
+		<div id="search">
+			<!--srchForm -->
+			<form id="srchForm" class="floatL" name="srchForm" action="//search.nifty.com/cgi-bin/gosearch.cgi" onsubmit="return searchExe();">
+				<div id="srcHiddenParm" style="height: 1%;">
+					<input name="cflg" value="ŒŸõ" type="hidden" />
+					<input name="ss" value="nifty_top_tp" type="hidden" />
+					<input name="select2" value="ŒŸõ" type="hidden" />
+				</div>
+				<div class="rb srchTxtWrp">
+					<div class="rbinr">
+						<p id="srchInptElmnt" class="pkg">
+							<span id="searchText"><input id="srchTxt" name="Text" class="srchTxt srchSet" type="text" value="" /><!--
+							--></span><input id="srchBtn" type="submit" value="ŒŸõ" alt="ŒŸõ" class="srchBtnSet" />
+						</p>
+						<div id="srchAssistBtn"><a href="javascript:void(0);" onclick="sgDispList();return false;" hidefocus="true">ƒL[ƒ[ƒh•â•‚ğŠJ‚­</a></div>
+						<div id="srchAssist">
+							<div id="srchAssistInner">
+								<div id="srchAssistDisp" class="window" style="display:none;">
+									<!--searchType -->
+									<ul id="searchType" class="pkg">
+										<li><a href="//search.nifty.com/search/" class="focus" title="ƒEƒFƒu‚ğŒŸõ‚µ‚Ü‚·"><span><strong>ƒEƒFƒu</strong></span></a></li>
+										<li><a href="//search.nifty.com/search/" title="‰æ‘œ‚ğŒŸõ‚µ‚Ü‚·"><span>‰æ‘œ</span></a></li>
+										<li><a href="//search.nifty.com/search/" title="“®‰æ‚ğŒŸõ‚µ‚Ü‚·"><span>“®‰æ</span></a></li>
+										<li><a href="http://tool.nifty.com/dictionary/" title="«‘‚ÅŒŸõ‚µ‚Ü‚·"><span>«‘</span></a></li>
+										<li><a href="http://nifty.its-mo.com/" title="’n}‚ğŒŸõ‚µ‚Ü‚·"><span>’n}</span></a></li>
+										<li><a href="//search.nifty.com/search/" title="@nifty“à‚ğŒŸõ‚µ‚Ü‚·"><span>@nifty“à</span></a></li>
+									</ul>
+									<!--/searchType -->
+									<div id="srchAssistSuggest"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		<!--/srchForm -->
+		</div>
+		</div>
+		<!--/search -->
+
+<script type="text/javascript">
+//<![CDATA[
+var displayKeyword=function(){
+	var kwArray = new Array();
+	kwArray[0] = [{keyword:'¢ŠE‘ì‹…2018',keywordDisp:'¢ŠE‘ì‹…2018',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=%90%A2%8A%45%91%EC%8B%852018&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'1',countlink:'topchu_w1'},{keyword:'‰Ô‚Ì‚¿°‚ê',keywordDisp:'‰Ô‚Ì‚¿°‚ê',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=%89%D4%82%CC%82%BF%90%B0%82%EA&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'2',countlink:'topchu_w2'},{keyword:'¼‹{—â‘ ',keywordDisp:'¼‹{—â‘ ',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=%90%BC%8B%7B%97%E2%91%A0&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'3',countlink:'topchu_w3'},{keyword:'XèƒEƒBƒ“',keywordDisp:'XèƒEƒBƒ“',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=%90%58%8D%E8%83%45%83%42%83%93&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'4',countlink:'topchu_w4'},{keyword:'R‚Ì–@‘¥',keywordDisp:'R‚Ì–@‘¥',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=R%82%CC%96%40%91%A5&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'5',countlink:'topchu_w5'}];
+	kwArray[1] = [{keyword:'”Ñ“‡–]–¢',keywordDisp:'”Ñ“‡–]–¢',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=%94%D1%93%87%96%5D%96%A2&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'6',countlink:'topchu_w6'},{keyword:'TVer',keywordDisp:'TVer',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=TVer&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'7',countlink:'topchu_w7'},{keyword:'ƒpƒ“ƒhƒ‰‚Ì—JŸT',keywordDisp:'ƒpƒ“ƒhƒ‰‚Ì—JŸT',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=%83%70%83%93%83%68%83%89%82%CC%97%4A%9F%54&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'8',countlink:'topchu_w8'},{keyword:'ƒeƒB[ƒo[',keywordDisp:'ƒeƒB[ƒo[',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=%83%65%83%42%81%5B%83%6F%81%5B&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'9',countlink:'topchu_w9'},{keyword:'‚¶‚á‚ç‚ñƒlƒbƒg—\–ñ',keywordDisp:'‚¶‚á‚ç‚ñƒlƒbƒgc',url:'http://search.nifty.com/cgi-bin/search.cgi?select=26&cflg=%8C%9F%8D%F5&Text=%82%B6%82%E1%82%E7%82%F1%83%6C%83%62%83%67%97%5C%96%F1&otype=web_nifty_shun_tp',updown:'misc_top/images/synw/up.png',updownAlt:'‡ˆÊã¸',rank:'10',countlink:'topchu_w10'}];
+	kwArray[2] = [{keyword:'“d‹C—¿‹à”äŠr',keywordDisp:'“d‹C—¿‹à”äŠr',url:'https://search.nifty.com/websearch/search?select=2&ss=up&otype=web_nifty_kwl_tp&cflg=%E6%A4%9C%E7%B4%A2&chartype=&Text=%E9%9B%BB%E6%B0%97%E6%96%99%E9%87%91%E6%AF%94%E8%BC%83',updown:'misc_top/images/synw/stay.png',updownAlt:'•Ï‰»‚È‚µ',rank:undefined,countlink:'topchu_hw1'},{keyword:'GW‚¨‚·‚·‚ß',keywordDisp:'GW‚¨‚·‚·‚ß',url:'https://search.nifty.com/websearch/search?select=2&ss=up&otype=web_nifty_kwl_tp&cflg=%E6%A4%9C%E7%B4%A2&chartype=&Text=GW%e3%81%8a%e3%81%99%e3%81%99%e3%82%81',updown:'misc_top/images/synw/stay.png',updownAlt:'•Ï‰»‚È‚µ',rank:undefined,countlink:'topchu_hw2'},{keyword:'ŠiˆÀƒXƒ}ƒz',keywordDisp:'ŠiˆÀƒXƒ}ƒz',url:'https://search.nifty.com/websearch/search?select=2&ss=up&otype=web_nifty_kwl_tp&cflg=%E6%A4%9C%E7%B4%A2&chartype=&Text=%e6%a0%bc%e5%ae%89%e3%82%b9%e3%83%9e%e3%83%9b',updown:'misc_top/images/synw/stay.png',updownAlt:'•Ï‰»‚È‚µ',rank:undefined,countlink:'topchu_hw3'},{keyword:'ƒeƒŒƒr”Ô‘g•\',keywordDisp:'ƒeƒŒƒr”Ô‘g•\',url:'https://search.nifty.com/websearch/search?select=2&ss=up&otype=web_nifty_kwl_tp&cflg=%E6%A4%9C%E7%B4%A2&chartype=&Text=%E3%83%86%E3%83%AC%E3%83%93%E7%95%AA%E7%B5%84%E8%A1%A8',updown:'misc_top/images/synw/stay.png',updownAlt:'•Ï‰»‚È‚µ',rank:undefined,countlink:'topchu_hw4'},{keyword:'‚Ó‚é‚³‚Æ”[Å',keywordDisp:'‚Ó‚é‚³‚Æ”[Å',url:'https://search.nifty.com/websearch/search?select=2&ss=up&otype=web_nifty_kwl_tp&cflg=%E6%A4%9C%E7%B4%A2&chartype=&Text=%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E',updown:'misc_top/images/synw/stay.png',updownAlt:'•Ï‰»‚È‚µ',rank:undefined,countlink:'topchu_hw5'}];
+
+	if('https://search.nifty.com/shun/ranking.htm' === ''){
+		$("#kyrdm0").html("˜b‘èF");
+	}else{
+		$("#kyrdm0").html("<a href='https://search.nifty.com/shun/ranking.htm' onmousedown='return countlink(\"www\",\"topchu_ttl\",this.href);'>˜b‘è</a>F");
+	}
+	var makeHTML=function(array,display){
+		var html = '';
+		var cnt = array.length;
+		if(cnt !== 0){
+			html += '\n\t<ol ' + ((display === true) ? '' : 'style="display:none;"') + '>';
+			for(var i = 0;i < cnt;i++ ){
+				html += '\n\t\t<li class="inline">';
+				html += "<img src='" + array[i].updown + "' width='8' height='8' alt='" + array[i].updownAlt + "'/>";
+				if(array[i].rank && array[i].rank !== ''){
+					html += "<img src='misc_top/images/synw/" + array[i].rank + ".png' width='15' height='15' alt='" + array[i].rank + "ˆÊ' />";
+				}
+	  			html += "<a title='" + array[i].keyword + "' href='" + array[i].url + "' onmousedown='return countlink(\"www\",\"" + array[i].countlink +"\",this.href);'>" + array[i].keywordDisp + "</a>";
+  				html += '</li>';
+			}
+			html += '\n\t</ol>';
+		}
+		return html;
+	}
+	var html = '';
+	var disp = true;
+	html += makeHTML(kwArray[0],disp);
+	disp = (html.length === 0) ? true : false;
+	html += makeHTML(kwArray[1],disp);
+	disp = (html.length === 0) ? true : false;
+	html += makeHTML(kwArray[2],disp);
+
+	$('#synWord2').html(html);
+	$(document).ready( function(){
+		$('#synWord2').innerfade({
+			animationtype: 'slide',
+			speed: 750,
+			timeout: 10000,
+			type: 'sequence',
+			containerheight: '1em'
+		});
+	});
+}
+//]]>
+</script>
+		<!--synWrap -->
+		<div class="synWrap pkg">
+		<p id="kyrdm0" class="synWordTtl"></p>
+		<div id="synWord2"></div>
+			<script type="text/javascript">
+			//<![CDATA[
+				displayKeyword();
+			//]]>
+			</script>
+		</div>
+		<!--/synWrap -->
+	</div>
+	<!--/#unitSrch -->
+
+</div>
+<!--/#contentsTop -->
+
+<div id="dmenu">
+	<div class="dmenuInr">
+		<div id="carousel" class="carousel">
+			<ul class="pkg"></ul>
+			<a class="carouselPrev" id="carousel_prev" href="#" onmousedown="return countlink('www','topdock_arrow','https://www.nifty.com/');"><span>prev</span></a>
+			<a class="carouselNext" id="carousel_next" href="#" onmousedown="return countlink('www','topdock_arrow','https://www.nifty.com/');"><span>next</span></a>
+			<div class="carouselNav" id="carousel_nav"></div>
+		</div>
+	</div>
+	<noscript>
+	<div class="noscriptMsg">
+		<dl>
+			<dt>@niftyƒgƒbƒvƒy[ƒW‚Ì‘S‹@”\‚ğ‚²—˜—p‚¢‚½‚¾‚­‚É‚ÍAƒuƒ‰ƒEƒU‚ÌJava Script‚Ìİ’è‚ğu—LŒøv‚É‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B</dt>
+
+			<dd>‘ã•\“I‚Èƒuƒ‰ƒEƒU‚Å‚Ìİ’è•û–@‚ğ<a href="http://clink.nifty.com/r/www/topinfo_js/?http://qa.nifty.com/cs/catalog/faq_qa/qid_11718/1.htm">uJavaScript‚ğ—LŒø‚É‚·‚é•û–@‚ğ‹³‚¦‚Ä‚Ù‚µ‚¢v</a>‚Å‚²ˆÄ“à‚µ‚Ä‚¢‚Ü‚·B</dd>
+		</dl>
+	</div>
+	</noscript>
+	<!--/ .noscript -->
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var dcJson=function(){
+	return {"trakuten":{"str":"Šy“Vƒgƒ‰ƒxƒ‹","url":"https://hb.afl.rakuten.co.jp/hgc/15cd0c70.3474117d.15cd0c71.858ded8d/?pc=http%3A%2F%2Ftravel.rakuten.co.jp%2F&m=http%3A%2F%2Ftravel.rakuten.co.jp%2F&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRlc3QiLCJjb2wiOjB9","cnt":"rat","icn":"cms_image/niftop/dockFavorite/170607217579/bg_dock_trakuten.png"},"mail":{"str":"ƒ[ƒ‹","url":"https://mail.nifty.com/mailer/","cnt":"ml","icn":"cms_image/niftop/dockFavorite/130819142412/bg_dock_mail.png"},"2ndmail":{"str":"ƒZƒJƒ“ƒhƒ[ƒ‹","url":"https://mail.nifty.com/mailer/2nd/","cnt":"2nd","icn":"cms_image/niftop/dockFavorite/130819142411/bg_dock_2ndmail.png"},"security":{"str":"ƒZƒLƒ…ƒŠƒeƒB","url":"http://www.nifty.com/security/","cnt":"sec","icn":"cms_image/niftop/dockFavorite/130819142410/bg_dock_security_130820.png"},"cocolog":{"str":"ƒuƒƒO","url":"http://www.cocolog-nifty.com/","cnt":"bl","icn":"cms_image/niftop/dockFavorite/130819142409/bg_dock_cocolog_120820.png","did":"cDock"},"support":{"str":"‰ïˆõƒTƒ|[ƒg","url":"http://support.nifty.com/support/","cnt":"sup","icn":"cms_image/niftop/dockFavorite/130819142406/bg_dock_support.png"},"weather":{"str":"“V‹C—\•ñ","url":"https://weather.nifty.com/","cnt":"wt","icn":"cms_image/niftop/dockFavorite/130819142405/bg_dock_weather.png","did":"wDock"},"transit":{"str":"˜Hüî•ñ","url":"https://rescuenow.nifty.com/cs/news-railway/list/1.htm","cnt":"tr","icn":"cms_image/niftop/dockFavorite/130819142404/bg_dock_transit.png","did":"tDock"},"uranai":{"str":"¡“ú‚Ì‰^¨","url":"http://uranai.nifty.com/app/f12seiza/","cnt":"fr","icn":"","did":"uDock"},"youtube":{"str":"YouTube","url":"https://www.youtube.com/","cnt":"yt","icn":"cms_image/niftop/dockFavorite/130819142402/bg_dock_youtube_131128.png"},"nicovideo":{"str":"niconico","url":"http://www.nicovideo.jp/","cnt":"nc","icn":"cms_image/niftop/dockFavorite/130819142401/bg_dock_nicovideo.png"},"wikipedia":{"str":"ƒEƒBƒLƒyƒfƒBƒA","url":"https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8","cnt":"wk","icn":"cms_image/niftop/dockFavorite/130819142400/bg_dock_wikipedia_120820.png"},"bhatena":{"str":"‚Í‚Äƒu","url":"http://b.hatena.ne.jp/","cnt":"bh","icn":"cms_image/niftop/dockFavorite/130819142399/bg_dock_bhatena.png"},"mnaver":{"str":"NAVER‚Ü‚Æ‚ß","url":"https://matome.naver.jp/","cnt":"mtm","icn":"cms_image/niftop/dockFavorite/130819142398/bg_dock_mnaver_120820.png"},"facebook":{"str":"Facebook","url":"https://www.facebook.com/","cnt":"fb","icn":"cms_image/niftop/dockFavorite/130819142397/bg_dock_facebook_120820.png"},"twitter":{"str":"Twitter","url":"https://twitter.com/","cnt":"tw","icn":"cms_image/niftop/dockFavorite/130819142396/bg_dock_twitter_120820.png"},"mixi":{"str":"mixi","url":"https://mixi.jp/","cnt":"mx","icn":"cms_image/niftop/dockFavorite/130819142395/bg_dock_mixi.png"},"amazon":{"str":"Amazon.co.jp","url":"https://www.amazon.co.jp/?_encoding=UTF8&camp=247&creative=1211&linkCode=ur2&tag=niftopaffili-22","cnt":"am","icn":"cms_image/niftop/dockFavorite/130819142394/bg_dock_amazon_120820.png"},"rakuten":{"str":"Šy“Vsê","url":"http://pt.afl.rakuten.co.jp/c/0fbcd069.fb2e7bbc/_RTnfty10000001?url=http%3a%2f%2fwww.rakuten.co.jp","cnt":"rt","icn":"cms_image/niftop/dockFavorite/130819142393/bg_dock_rakuten.png"},"syahoo":{"str":"Y!ƒVƒ‡ƒbƒsƒ“ƒO","url":"http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3088959&pid=884368997","cnt":"sy","icn":"cms_image/niftop/dockFavorite/130819142392/bg_dock_syahoo_170313.png"},"ayahoo":{"str":"ƒ„ƒtƒIƒN!","url":"http://auctions.yahoo.co.jp/","cnt":"ay","icn":"cms_image/niftop/dockFavorite/130819142391/bg_dock_ayahoo_170313.png"},"cookpad":{"str":"ƒNƒbƒNƒpƒbƒh","url":"https://cookpad.com/","cnt":"cp","icn":"cms_image/niftop/dockFavorite/130819142390/bg_dock_cookpad.png"}};
+};
+var dcOdrDef = function(){
+	var dOrder = "weather*uranai*transit*amazon*rakuten*youtube*facebook*cocolog*support*mail*2ndmail*security*trakuten*mycab*cookpad*syahoo*ayahoo*nicovideo*twitter*mixi*mnaver*wikipedia*bhatena";
+	return dOrder;
+};
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var getUData=function(code){
+var UArray=new Array();
+UArray["ohitsuji"]=new Array("‚¨‚Ğ‚Â‚¶À","ohitsuji.htm","98","‹»–¡‚ª‚ ‚Á‚½‚±‚Æ‚â‰ß‹‚É‚ ‚«‚ç‚ß‚½‚±‚Æ‚È‚Ç‚ğn‚ß‚éƒ`ƒƒƒ“ƒXB","92","81","50","1");
+UArray["hutago"]=new Array("‚Ó‚½‚²À","hutago.htm","88","Š´‚¶‚Ì‚¢‚¢l‚Æ’m‚è‡‚¦‚½‚èA—D‚µ‚»‚¤‚Èl‚ğĞ‰î‚³‚ê‚»‚¤‚Å‚·B","82","97","78","2");
+UArray["tenbin"]=new Array("‚Ä‚ñ‚Ñ‚ñÀ","tenbin.htm","87","ƒ‰ƒCƒoƒ‹‚É·‚ğ‚Â‚¯‚éâD‚Ì‹@‰ïB‰½‚ğ‚µ‚Ä‚à‚¤‚Ü‚­‚¢‚­‚Í‚¸B","83","90","48","3");
+UArray["ite"]=new Array("‚¢‚ÄÀ","ite.htm","82","‘¶İŠ´‚ª‘‚µ‚Ä–¾‚é‚³‚ª•\‚Éo‚é“úBƒ€[ƒhƒ[ƒJ[‚É‚È‚ê‚»‚¤B","72","65","51","4");
+UArray["mizugame"]=new Array("‚İ‚¸‚ª‚ßÀ","mizugame.htm","81","V‚µ‚¢‚à‚Ì‚É–Ú‚ğŒü‚¯‚é‚æ‚èA‰½‚©‚É‚¶‚Á‚­‚è‚Ææ‚è‘g‚ñ‚Å‚İ‚ÄB","73","89","78","5");
+UArray["shishi"]=new Array("‚µ‚µÀ","shishi.htm","79","üˆÍ‚©‚ç‚Ì•]‰¿‚âM—Š‚ª“¾‚ç‚ê‚Ü‚·B‚Ü‚¶‚ß‚È“úí¶Šˆ‚ğ‘—‚Á‚ÄB","77","88","45","6");
+UArray["otome"]=new Array("‚¨‚Æ‚ßÀ","otome.htm","71","—âÃ‚Å‚¢‚ç‚ê‚¸‚È‚º‚©ƒ~ƒX‚ğ‚µ‚½‚èA‰ä–‚ª— –Ú‚Éo‚½‚è‚µ‚»‚¤B","64","72","52","7");
+UArray["oushi"]=new Array("‚¨‚¤‚µÀ","oushi.htm","65","‚Ç‚ñ‚Èl‚É‘Î‚µ‚Ä‚à”á”»‚µ‚â‚·‚­‚È‚Á‚ÄA•s•½•s–‚ª”š”­‚µ‚»‚¤B","78","69","99","8");
+UArray["yagi"]=new Array("‚â‚¬À","yagi.htm","60","•sŠí—p‚È–Ê‚ª–Ú—§‚¿‚»‚¤Bv‚í‚ÊŒë‰ğ‚ğµ‚¢‚Ä¸”s‚ğ‚·‚é‚©‚àB","54","42","60","9");
+UArray["uo"]=new Array("‚¤‚¨À","uo.htm","59","‘ÎlŠÖŒW‚ªƒMƒNƒVƒƒƒN‚µ‚½‚èA‰½‚©‚É‚Â‚¯‚Ä‚¤‚Ü‚­s‚©‚È‚¢‚©‚àB","55","52","42","10");
+UArray["kani"]=new Array("‚©‚ÉÀ","kani.htm","58","‚¤‚Ü‚­‚¢‚©‚È‚¢–‚ª‘‚¦A‰½–‚É‚¨‚¢‚Ä‚àƒlƒKƒeƒBƒu‚Él‚¦‚»‚¤B","57","55","89","11");
+UArray["sasori"]=new Array("‚³‚»‚èÀ","sasori.htm","55","ƒXƒgƒŒƒX‚Ì‚¹‚¢‚ÅŠ´î‚ğ—}‚¦‚«‚ê‚¸A‘Îl–Ê‚Å‹C‚Ü‚¸‚­‚È‚é‚©‚àB","59","45","95","12");
+return UArray[code] || "";
+}
+var getWTyphStr=function(){
+	var wTmp="";
+	return wTmp;
+};
+var getWTyphTxt=function(){
+	var wTmp="";
+	return wTmp;
+};
+var getUTopics=function(){
+	var uTmp="";
+	uTmp+='<li><a href="http://uranai.nifty.com/" onmousedown="return countlink(\'www\',\'topdock_fr_04\',this.href);">–³—¿è‚¢1,000ŒˆÈã –{Šiè‚¢ƒTƒCƒguè‚¢@niftyv</a></li>';
+	uTmp='<ul class="pickup pddT10 dot">' + uTmp + '</ul>';
+	return uTmp;
+}
+var uDt=function(){
+	return "2018”N5Œ2“úi…j";
+};
+var cUDt=function(){
+	return "20180502";
+};
+var getWDate = function(){
+	return "2018/05/02 00:00:00";
+};
+var tDt=function(){
+	return "5Œ2“ú 00F42";
+};
+var getTTopics=function(){
+	var tTmp = "";
+	return tTmp;
+};
+var dcBlogInfo = function(){
+	var tmp="";
+	var html="";
+	html+='<li><a onmousedown="return countlink(\'www\',\'topdock_bl_03\',this.href);" href="http://info.cocolog-nifty.com/info/2018/02/2018226-1f5b.html">yƒƒ“ƒeƒiƒ“ƒXzƒRƒRƒƒO@ƒƒ“ƒeƒiƒ“ƒX‚Ì‚¨’m‚ç‚¹i2018/2c</a></li>';
+	html+='<li><a onmousedown="return countlink(\'www\',\'topdock_bl_03\',this.href);" href="http://info.cocolog-nifty.com/info/2018/02/2018221-61fd.html">yƒƒ“ƒeƒiƒ“ƒXzƒRƒRƒƒO@ƒƒ“ƒeƒiƒ“ƒX‚Ì‚¨’m‚ç‚¹i2018/2c</a></li>';
+	html+='<li><a onmousedown="return countlink(\'www\',\'topdock_bl_03\',this.href);" href="http://info.cocolog-nifty.com/info/2018/01/google-c7b7.html">GoogleĞ‚©‚ç‚Ìƒ[ƒ‹‚âƒƒbƒZ[ƒW‚É‚Â‚¢‚Ä</a></li>';
+	tmp+='<div class="cttl pkg"><div class="ttl"><a onmousedown="return countlink(\'www\',\'topdock_bl_03\',this.href);" href="http://info.cocolog-nifty.com/info/" class="fontW">ƒRƒRƒƒO‚©‚ç‚Ì‚¨’m‚ç‚¹</a></div></div><div class="prvCnInr"><ul class="dot">';
+	tmp+=html;
+	tmp+='</ul></div>';
+	return tmp;
+};
+var getSecRss = function(){
+};
+dcInit();
+//]]>
+</script>
+
+
+</div>
+
+</div>
+
+</div>
+
+<div id="container">
+
+<hr />
+
+<!--contents -->
+<div id="contents" class="pkg pddB20">
+
+	<div id="navi">
+		<div id="menuB"></div>
+		<div id="rt_isp_niftop_left" style="display:none"></div>
+<script type="text/javascript">
+//<![CDATA[
+var favDf=function(){
+	return "shopping*news*weather*map*job*finance*hoken*game*uranai*business*book*entame*travel*onsen*kids*myhome*sportsclub";
+};
+var getFav=function(){
+	return {"cate":["ƒƒfƒBƒAEî•ñŒ¹","Šé‹ÆEƒ}ƒl[","ƒCƒ“ƒ^[ƒlƒbƒgEPC","ƒGƒ“ƒ^[ƒeƒCƒ“ƒƒ“ƒg","ƒ‰ƒCƒtƒXƒ^ƒCƒ‹E¶Šˆ","ƒRƒ~ƒ…ƒjƒeƒB","ŠO•”ƒT[ƒrƒX"],"0":{"1":{"key":"ƒjƒ…[ƒX","url":"https://news.nifty.com/","lid":"news","iid":"fav","nw":"0"},"2":{"key":"ƒfƒCƒŠ[ƒ|[ƒ^ƒ‹Z","url":"http://portal.nifty.com/","lid":"portal","iid":"fav","nw":"0"},"3":{"key":"“V‹C","url":"https://weather.nifty.com/","lid":"weather","iid":"fav","nw":"0"},"4":{"key":"’nk","url":"https://weather.nifty.com/quake.htm","lid":"rescuenow","iid":"fav","nw":"0"},"5":{"key":"’n}","url":"http://map-nifty.com/","lid":"map","iid":"fav","nw":"0"},"6":{"key":"«‘","url":"http://dictionary.nifty.com/","lid":"dictionary","iid":"fav","nw":"0"},"7":{"key":"–|–ó","url":"http://www.excite.co.jp/world/nifty/","lid":"honyaku","iid":"fav","nw":"0"},"8":{"key":"‹l","url":"https://job.nifty.com/","lid":"job","iid":"fav","nw":"0"},"9":{"key":"“]E","url":"https://tenshoku.nifty.com/","lid":"jobcareers","iid":"fav","nw":"0"},"10":{"key":"”hŒ­","url":"http://haken.job.nifty.com/","lid":"jobhaken","iid":"fav","nw":"0"},"11":{"key":"ƒAƒ‹ƒoƒCƒg","url":"https://arbeit.nifty.com/","lid":"jobarbeit","iid":"fav","nw":"0"}},"1":{"1":{"key":"–@lŒü‚¯ƒT[ƒrƒX","url":"http://www.nifty.com/biz/","lid":"biz","iid":"fav","nw":"0"},"2":{"key":"Šé‹Æî•ñ","url":"https://business.nifty.com/","lid":"business","iid":"fav","nw":"0"},"3":{"key":"•ÛŒ¯”äŠr","url":"https://hoken.nifty.com/","lid":"hoken","iid":"fav","nw":"0"},"4":{"key":"ƒ}ƒl[‘Š’k","url":"http://money.nifty.com/","lid":"money","iid":"fav","nw":"0"},"5":{"key":"NIFTY Card","url":"http://card.nifty.com/","lid":"card","iid":"fav","nw":"0"}},"2":{"1":{"key":"NifMoiƒXƒ}ƒzESIMj","url":"http://nifmo.nifty.com/","lid":"nifmo","iid":"fav","nw":"0"},"2":{"key":"ƒvƒƒoƒCƒ_[ƒT[ƒrƒX","url":"http://setsuzoku.nifty.com/","lid":"setsuzoku","iid":"fav","nw":"0"},"3":{"key":"ƒ[ƒ‹","url":"http://www.nifty.com/mail/","lid":"mail","iid":"fav","nw":"0"},"4":{"key":"ƒZƒLƒ…ƒŠƒeƒB","url":"http://www.nifty.com/security/","lid":"security","iid":"fav","nw":"0"},"5":{"key":"ƒEƒCƒ‹ƒX‘Îô","url":"http://www.nifty.com/sec24/","lid":"sec24","iid":"fav","nw":"0"},"6":{"key":"—LŠQƒTƒCƒgƒuƒƒbƒN","url":"http://security.nifty.com/ifilter/","lid":"securityifilter","iid":"fav","nw":"0"},"7":{"key":"ŒŸõ‹}ã¸","url":"http://www.nifty.com/shun/","lid":"shun","iid":"fav","nw":"0"},"8":{"key":"ƒŒƒ“ƒ^ƒ‹ƒT[ƒrƒX","url":"http://csoption.nifty.com/rental/","lid":"rental","iid":"fav","nw":"0"},"9":{"key":"ƒXƒ}[ƒgƒT[ƒu","url":"http://smartserve.nifty.com/","lid":"smartserve","iid":"fav","nw":"0"},"10":{"key":"ƒz[ƒ€ƒy[ƒW","url":"http://homepage.nifty.com/","lid":"homepage","iid":"fav","nw":"0"}},"3":{"1":{"key":"ƒQ[ƒ€","url":"https://game.nifty.com/","lid":"game","iid":"fav","nw":"0"},"2":{"key":"è‚¢","url":"https://uranai.nifty.com/","lid":"uranai","iid":"fav","nw":"0"},"3":{"key":"“dq‘Ğ","url":"https://entame.nifty.com/book/","lid":"book","iid":"fav","nw":"0"},"4":{"key":"“®‰æEƒAƒjƒ","url":"https://entame.nifty.com/douga/","lid":"entame","iid":"fav","nw":"0"},"5":{"key":"‹£”n","url":"https://keiba.nifty.com/","lid":"keiba","iid":"fav","nw":"0"},"6":{"key":"ƒ|ƒCƒ“ƒgƒ‚[ƒ‹","url":"https://fun.nifty.com/lp/","lid":"pointupmall","iid":"fav","nw":"0"},"7":{"key":"•ó‚­‚¶","url":"https://www.nifty.com/navi/campaign/takarakuji/","lid":"takarakuji","iid":"fav","nw":"0"},"8":{"key":"‚·‚²‚ë‚­","url":"http://www.nifty.com/navi/campaign/sugoroku/","lid":"sugoroku","iid":"fav","nw":"0"},"9":{"key":"ƒŠƒT[ƒ`","url":"https://fun.nifty.com/research/lp/","lid":"research","iid":"fav","nw":"0"},"10":{"key":"ƒOƒ‰ƒrƒA","url":"http://sexy.nifty.com/","lid":"sexy","iid":"fav","nw":"0"}},"4":{"1":{"key":"—·siŠy“Vj","url":"https://hb.afl.rakuten.co.jp/hgc/15cd0c70.3474117d.15cd0c71.858ded8d/?pc=http%3A%2F%2Ftravel.rakuten.co.jp%2F&m=http%3A%2F%2Ftravel.rakuten.co.jp%2F&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRlc3QiLCJjb2wiOjB9","lid":"travel","iid":"fav","nw":"0"},"2":{"key":"‰·ò","url":"https://onsen.nifty.com/","lid":"onsen","iid":"fav","nw":"0"},"3":{"key":"ƒLƒbƒY","url":"http://kids.nifty.com/","lid":"kids","iid":"fav","nw":"0"},"4":{"key":"•s“®Y","url":"http://myhome.nifty.com/","lid":"myhome","iid":"fav","nw":"0"},"5":{"key":"ƒXƒ|[ƒcƒNƒ‰ƒu","url":"https://sportsclub.nifty.com/","lid":"sportsclub","iid":"fav","nw":"0"},"6":{"key":"ƒVƒ‡ƒbƒsƒ“ƒO","url":"https://www.nifty.com/navi/shopping/","lid":"shopping","iid":"fav","nw":"0"}},"5":{"1":{"key":"ƒuƒƒO","url":"http://www.cocolog-nifty.com/","lid":"cocolog","iid":"fav","nw":"0"},"2":{"key":"ƒCƒ“ƒ^[ƒ|ƒbƒg","url":"http://interpot.cocolog-nifty.com/","lid":"cocologinterpot","iid":"fav","nw":"0"},"3":{"key":"‰½‚Å‚à’²¸’c","url":"http://chosa.nifty.com/","lid":"chosa","iid":"fav","nw":"0"},"4":{"key":"Q&A","url":"https://oshiete.nifty.com/","lid":"oshiete","iid":"fav","nw":"0"},"5":{"key":"ƒJƒ‹ƒ`ƒƒ[ƒJƒ‹ƒ`ƒƒ[","url":"http://tcc.nifty.com/","lid":"tcc","iid":"fav","nw":"0"}},"6":{"1":{"key":"Twitter","url":"https://twitter.com/","lid":"twitter","iid":"fav","nw":"0"},"2":{"key":"Facebook","url":"https://www.facebook.com/","lid":"facebook","iid":"fav","nw":"0"},"3":{"key":"mixi","url":"https://mixi.jp/","lid":"mixi","iid":"fav","nw":"0"},"4":{"key":"YouTube","url":"https://www.youtube.com/","lid":"youtube","iid":"fav","nw":"0"},"5":{"key":"ƒjƒRƒjƒR“®‰æ","url":"http://www.nicovideo.jp/","lid":"nicovideo","iid":"fav","nw":"0"},"6":{"key":"USTREAM","url":"http://www.ustream.tv/","lid":"ustream","iid":"fav","nw":"0"},"7":{"key":"ƒAƒ[ƒoƒsƒO","url":"http://pigg.ameba.jp/","lid":"amebapigg","iid":"fav","nw":"0"},"8":{"key":"ƒNƒbƒNƒpƒbƒh","url":"https://cookpad.com/","lid":"cookpad","iid":"fav","nw":"0"},"9":{"key":"ƒVƒ‡ƒbƒsƒ“ƒOƒT[ƒ`","url":"http://www.shopping-search.jp/","lid":"shopsearch","iid":"fav","nw":"0"}}};
+};
+var favPri=function(){
+	var fTmp="";
+	return fTmp;
+};
+leftMInit();
+//]]>
+</script>
+
+		<div id="svcListBtn"><a class="text" href="//www.nifty.com/category/" onmousedown="return countlink('www','topnavi_cat',this.href);">ƒT[ƒrƒXˆê——</a></div>
+
+		<div id="nazoArea" style="display:none"></div>
+	</div>
+
+	<hr />
+
+	<!--mainContents -->
+	<div id="mainContents">
+
+
+
+
+		<div class="hslice" id="newsArea">
+		<p class="entry-title dispNone">@niftyFƒjƒ…[ƒXE˜b‘è</p>
+		<!--News -->
+		<ul id="News-navi" class="pkg">
+			<li id="News01" class="focus"><a href="https://news.nifty.com/topics/" onmousedown="return countlink('www','topnews_news_tab_02',this.href);" onclick="return tabClick(1);"><span>’–Ú</span></a></li>
+			<li id="News02"><a href="https://news.nifty.com/domestic/" onmousedown="return countlink('www','topnews_dome_tab_01',this.href);" onclick="return tabClick(6);"><span>‘“à</span></a></li>
+			<li id="News03"><a href="https://news.nifty.com/world/" onmousedown="return countlink('www','topnews_worl_tab_01',this.href);" onclick="return tabClick(5);"><span>ŠCŠO</span></a></li>
+			<li id="News04"><a href="https://news.nifty.com/economy/" onmousedown="return countlink('www','topnews_econ_tab_01',this.href);" onclick="return tabClick(2);"><span>ŒoÏ</span></a></li>
+			<li id="News05"><a href="https://news.nifty.com/entame/" onmousedown="return countlink('www','topnews_enta_tab_01',this.href);" onclick="return tabClick(3);"><span>ƒGƒ“ƒ^ƒ</span></a></li>
+			<li id="News06"><a href="https://news.nifty.com/sports/" onmousedown="return countlink('www','topnews_spor_tab_01',this.href);" onclick="return tabClick(4);"><span>ƒXƒ|[ƒc</span></a></li>
+			<li id="News07"><a href="https://news.nifty.com/technology/" onmousedown="return countlink('www','topnews_tech_tab_01',this.href);" onclick="return tabClick(7);"><span>ƒeƒN</span></a></li>
+			<li id="News08"><a href="https://news.nifty.com/item/" onmousedown="return countlink('www','topnews_item_tab_01',this.href);" onclick="return tabClick(8);"><span>ƒlƒ^</span></a></li>
+		</ul>
+		<!--/.News-navi -->
+
+		<div class="box" id="News">
+			<div id="newsArea01" class="pkg pddT10">
+				<div class="floatL news-content entry-content">
+
+					<!--AttNews -->
+					<ul class="dot pddL5 pddT0" id="AttNews">
+<script type="text/javascript">
+//<![CDATA[
+var nTmp='';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239241/" onmousedown="return countlink(\'www\',\'topnews_news_01\',this.href);">“ú’†ŠØñ”] 9“ú‚É“Œ‹‚Å‰ï’k</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180502239261/" onmousedown="return countlink(\'www\',\'topnews_news_02\',this.href);">’E‘– –{B‚Å‚à–³l–¯‰Æö•š<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180502239262/" onmousedown="return countlink(\'www\',\'topnews_news_03\',this.href);">‘åã‚Ì’†‰›•ª—£‘Ñ‚É”’œˆâ‘Ì<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180502239265/" onmousedown="return countlink(\'www\',\'topnews_news_04\',this.href);">ƒMƒ^[˜V•ÜƒMƒuƒ\ƒ“”jY\¿<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/mainichi/180501239252/" onmousedown="return countlink(\'www\',\'topnews_news_05\',this.href);">AV——D16l‚Ìì•i‚ğ”Ì”„’â~</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/soccerking/180501239253/" onmousedown="return countlink(\'www\',\'topnews_news_06\',this.href);">ƒoƒƒeƒbƒŠ‚ªƒj[ƒX‘Ş’cˆÓv<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jcast/180501239256/" onmousedown="return countlink(\'www\',\'topnews_news_07\',this.href);">O“c‰Hˆß‚ª¶•ú‘—’†‚É˜‹­‘Å<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/rl/180502239264/" onmousedown="return countlink(\'www\',\'topnews_news_08\',this.href);">‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/nikkansp/180501239245/" onmousedown="return countlink(\'www\',\'topnews_news_09\',this.href);">TOKIO‚Ì4l‚«‚å‚¤‹Ù‹}‰ïŒ©</a></li>';
+$("#newsArea01 #AttNews").append(nTmp);
+//]]>
+</script>
+						<li>
+<script src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script type='text/javascript'>
+googletag.pubads().definePassback('/48012543/NIFTY_PC/TOP/N-AD01', [1, 1]).display();
+</script>
+						</li>
+					</ul>
+
+				</div>
+				<!--/.floatL -->
+
+				<div class="floatL more-content">
+					<dl id="PhotoNews" class="txtaC box4">
+						<dt class="pddT5"><a href="https://news.nifty.com/topics/rl/180502239264/" onclick="saveCookie('phCtlgId','180502239264',200);" onmousedown="return countlink('www','topnews_news_photo',this.href);"><img src="/cms_image/niftop/topicImage2/180502239264/thumb-12184-39867-entame.jpg" alt="‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?(ƒŠƒAƒ‹ƒ‰ƒCƒu)"  title="‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?(ƒŠƒAƒ‹ƒ‰ƒCƒu)"   /></a></dt>
+						<dd class="fontS"><p><a href="https://news.nifty.com/topics/rl/180502239264/" onclick="saveCookie('phCtlgId','180502239264',200);" onmousedown="return countlink('www','topnews_news_photo',this.href);">‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?(ƒŠƒAƒ‹ƒ‰ƒCƒu)</a></p></dd>
+					</dl>
+<div class="recommendArea Lpickup"><h2>‚¨‚·‚·‚ß‚Ì‹L–</h2><ul class="dot pddL5 pddT0">
+<li><a href="https://news.nifty.com/topics/tbs/180501239257/" onmousedown="return countlink(\'www\',\'topnews_news_01\',this.href);">“P‹‚ÌˆÔˆÀ•w‘œ‚ğ•ÔŠÒ^”ä<span class="new">NEW</span></a></li>
+<li><a href="https://news.nifty.com/topics/jcast/180501239255/" onmousedown="return countlink(\'www\',\'topnews_news_02\',this.href);">RŒû–Œ‚ß‚®‚èŒ³q–ğ‚ª‰Šã<span class="new">NEW</span></a></li>
+<li><a href="https://news.nifty.com/topics/mw/180501239246/" onmousedown="return countlink(\'www\',\'topnews_news_03\',this.href);">ƒWƒ‡ƒjƒf–º‚ªÊ^‰Æ‚Æƒf[ƒg</a></li>
+<li><a href="https://news.nifty.com/topics/jiji/180501239238/" onmousedown="return countlink(\'www\',\'topnews_news_04\',this.href);">©–¯ –ö£—ˆTµ’v‚ÅŒŸ“¢</a></li>
+</ul></div>
+				</div>
+				<!--/.floatL -->
+			</div>
+			<div id="newsArea02" class="pkg pddT10" style="display:none;"></div>
+			<div id="newsArea03" class="pkg pddT10" style="display:none;"></div>
+			<div id="newsArea04" class="pkg pddT10" style="display:none;"></div>
+			<div id="newsArea05" class="pkg pddT10" style="display:none;"></div>
+			<div id="newsArea06" class="pkg pddT10" style="display:none;"></div>
+			<div id="newsArea07" class="pkg pddT10" style="display:none;"></div>
+			<div id="newsArea08" class="pkg pddT10" style="display:none;"></div>
+		</div>
+		<!--/#News -->
+
+		</div>
+		<!--/.hslice#newsArea -->
+<script type="text/javascript">
+//<![CDATA[
+var writeNew=function(){
+var nTmp='';
+nTmp+='<div class="floatL news-content entry-content"><ul class="dot pddL5 pddT0" id="AttNews">';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239241/" onmousedown="return countlink(\'www\',\'topnews_news_01\',this.href);">“ú’†ŠØñ”] 9“ú‚É“Œ‹‚Å‰ï’k</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180502239261/" onmousedown="return countlink(\'www\',\'topnews_news_02\',this.href);">’E‘– –{B‚Å‚à–³l–¯‰Æö•š<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180502239262/" onmousedown="return countlink(\'www\',\'topnews_news_03\',this.href);">‘åã‚Ì’†‰›•ª—£‘Ñ‚É”’œˆâ‘Ì<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180502239265/" onmousedown="return countlink(\'www\',\'topnews_news_04\',this.href);">ƒMƒ^[˜V•ÜƒMƒuƒ\ƒ“”jY\¿<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/mainichi/180501239252/" onmousedown="return countlink(\'www\',\'topnews_news_05\',this.href);">AV——D16l‚Ìì•i‚ğ”Ì”„’â~</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/soccerking/180501239253/" onmousedown="return countlink(\'www\',\'topnews_news_06\',this.href);">ƒoƒƒeƒbƒŠ‚ªƒj[ƒX‘Ş’cˆÓv<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jcast/180501239256/" onmousedown="return countlink(\'www\',\'topnews_news_07\',this.href);">O“c‰Hˆß‚ª¶•ú‘—’†‚É˜‹­‘Å<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/rl/180502239264/" onmousedown="return countlink(\'www\',\'topnews_news_08\',this.href);">‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/nikkansp/180501239245/" onmousedown="return countlink(\'www\',\'topnews_news_09\',this.href);">TOKIO‚Ì4l‚«‚å‚¤‹Ù‹}‰ïŒ©</a></li>';
+nTmp+=loglyGetHtml();
+nTmp+='</ul></div>';
+nTmp+='<div class="floatL more-content">';
+nTmp+='<dl id="PhotoNews" class="txtaC box4">';
+nTmp+='</dl>';
+
+nTmp+='<div class="recommendArea Lpickup"><h2>‚¨‚·‚·‚ß‚Ì‹L–</h2><ul class="dot pddL5 pddT0">';
+
+
+nTmp+='<li><a href="https://news.nifty.com/topics/tbs/180501239257/" onmousedown="return countlink(\'www\',\'topnews_news_01\',this.href);">“P‹‚ÌˆÔˆÀ•w‘œ‚ğ•ÔŠÒ^”ä<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jcast/180501239255/" onmousedown="return countlink(\'www\',\'topnews_news_02\',this.href);">RŒû–Œ‚ß‚®‚èŒ³q–ğ‚ª‰Šã<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/mw/180501239246/" onmousedown="return countlink(\'www\',\'topnews_news_03\',this.href);">ƒWƒ‡ƒjƒf–º‚ªÊ^‰Æ‚Æƒf[ƒg</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180501239238/" onmousedown="return countlink(\'www\',\'topnews_news_04\',this.href);">©–¯ –ö£—ˆTµ’v‚ÅŒŸ“¢</a></li>';
+nTmp+='</ul></div>';
+nTmp+='</div>';
+$("#newsArea01").html(nTmp);
+}
+var writePh=function(fFlg){
+var PhData=new Array();
+PhData[0]=new Array();
+PhData[0][0]="180502239264";
+PhData[0][1]="‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?(ƒŠƒAƒ‹ƒ‰ƒCƒu)";
+PhData[0][2]="https://news.nifty.com/topics/rl/180502239264/";
+PhData[0][3]='<img src="/cms_image/niftop/topicImage2/180502239264/thumb-12184-39867-entame.jpg" alt="‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?(ƒŠƒAƒ‹ƒ‰ƒCƒu)"  title="‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?(ƒŠƒAƒ‹ƒ‰ƒCƒu)"   />';
+PhData[1]=new Array();
+PhData[1][0]="180501239211";
+PhData[1][1]="USJ ’â~‚ÌƒR[ƒXƒ^[‚ªÄŠJ(“Ç”„V•·)";
+PhData[1][2]="https://news.nifty.com/topics/yomiuri/180501239211/";
+PhData[1][3]='<img src="/cms_image/niftop/topicImage2/180501239211/thumb-12213-20180501-50111-domestic.jpg" alt="USJ ’â~‚ÌƒR[ƒXƒ^[‚ªÄŠJ(“Ç”„V•·)"  title="USJ ’â~‚ÌƒR[ƒXƒ^[‚ªÄŠJ(“Ç”„V•·)"   />';
+PhData[2]=new Array();
+PhData[2][0]="180501239207";
+PhData[2][1]="&quot;•ô•s“ñq‚È‘Ì&quot;‚É[ƒLƒ‡ƒ“‚ç(ƒAƒTŒ|ƒvƒ‰ƒX)";
+PhData[2][2]="https://news.nifty.com/topics/agp/180501239207/";
+PhData[2][3]='<img src="/cms_image/niftop/topicImage2/180501239207/thumb-12104-103078-entame.jpg" alt="&quot;•ô•s“ñq‚È‘Ì&quot;‚É[ƒLƒ‡ƒ“‚ç(ƒAƒTŒ|ƒvƒ‰ƒX)"  title="&quot;•ô•s“ñq‚È‘Ì&quot;‚É[ƒLƒ‡ƒ“‚ç(ƒAƒTŒ|ƒvƒ‰ƒX)"   />';
+PhData[3]=new Array();
+PhData[3][0]="180501239205";
+PhData[3][1]="¼‹‚ª110”Ô ‹ÆÒƒgƒ‰ƒuƒ‹‚©(“úŠ§ƒXƒ|[ƒc)";
+PhData[3][2]="https://news.nifty.com/topics/nikkansp/180501239205/";
+PhData[3][3]='<img src="/cms_image/niftop/topicImage2/180501239205/thumb-12168-05015637-entame.jpg" alt="¼‹‚ª110”Ô ‹ÆÒƒgƒ‰ƒuƒ‹‚©(“úŠ§ƒXƒ|[ƒc)"  title="¼‹‚ª110”Ô ‹ÆÒƒgƒ‰ƒuƒ‹‚©(“úŠ§ƒXƒ|[ƒc)"   />';
+var ctlgId="";
+ctlgId=loadCookie("phCtlgId");
+var phHtml="";
+for(var i=0;i<3;i++){
+	if(ctlgId === PhData[i][0]){phHtml=phOutput(PhData[i+1]);break;}
+}
+if(fFlg!==1&&phHtml===""){phHtml=phOutput(PhData[0]);}
+if(phHtml!==""){$("#PhotoNews").html(phHtml);}
+}
+var writeEco=function(){
+var nTmp='';
+nTmp+='<div class="floatL news-content"><ul class="dot pddL5 pddT0" id="AttNews">';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180502239265/" onmousedown="return countlink(\'www\',\'topnews_econ_01\',this.href);">ƒMƒ^[˜V•ÜƒMƒuƒ\ƒ“”jY\¿<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180501239250/" onmousedown="return countlink(\'www\',\'topnews_econ_02\',this.href);">ƒ^ƒC TPPQ‰ÁˆÓŒü‚ğ³®•\–¾</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180501239242/" onmousedown="return countlink(\'www\',\'topnews_econ_03\',this.href);">ƒ„ƒ}ƒgHD ’lã‚°‚Å‰c‹Æ‘‰v</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180501239232/" onmousedown="return countlink(\'www\',\'topnews_econ_04\',this.href);">JT ‰Á”M®‚½‚Î‚±6Œ‘S‘”Ì”„</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jcast/180501239226/" onmousedown="return countlink(\'www\',\'topnews_econ_05\',this.href);">‚»‚²‚¤¼•"•ê‚Ì“ú“®‰æ"˜b‘è</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/clicccar/180501239209/" onmousedown="return countlink(\'www\',\'topnews_econ_06\',this.href);">NƒVƒXƒeƒ€ ƒI[ƒrƒXŠ¨ˆá‚¢‚à</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/traffic/180501239193/" onmousedown="return countlink(\'www\',\'topnews_econ_07\',this.href);">JR “Á‹}‚Í2ŠÔ’´’x‰„‚Å•Ô‹à</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/traffic/180501239187/" onmousedown="return countlink(\'www\',\'topnews_econ_08\',this.href);">"”w–ÊƒXƒyƒAƒ^ƒCƒ„"Œ¸­ŒXŒü</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239171/" onmousedown="return countlink(\'www\',\'topnews_econ_09\',this.href);">“úŒo•½‹Ï‘±L I’l22508‰~</a></li>';
+nTmp+=loglyGetHtml();
+nTmp+='</ul></div>';
+nTmp+='<div class="floatL more-content">';
+nTmp+='<dl class="txtaC box4"><dt class="pddT5"><a href="https://news.nifty.com/article/economy/999/12198-023341/photo/" onmousedown="return countlink(\'www\',\'topnews_econ_photo\',this.href);"><img src="/cms_image/niftop/economyPhoto/12198-023341/thumb-12198-023341-economy.jpg" alt="ŒoY‘Šu‹É‚ß‚ÄˆâŠ¶vA•Ä‚Ì“S|—A“ü§ŒÀg“ú–{‚ÍœŠO‚È‚µh(TBS)"  title="ŒoY‘Šu‹É‚ß‚ÄˆâŠ¶vA•Ä‚Ì“S|—A“ü§ŒÀg“ú–{‚ÍœŠO‚È‚µh(TBS)"   /></a></dt><dd class="fontS lineh11"><p><a href="https://news.nifty.com/article/economy/999/12198-023341/photo/" onmousedown="return countlink(\'www\',\'topnews_econ_photo\',this.href);">ŒoY‘Šu‹É‚ß‚ÄˆâŠ¶vA•Ä‚Ì“S|—A“ü§ŒÀg“ú–{‚ÍœŠO‚È‚µh(TBS)</a></p></dd></dl>';
+nTmp+='<div class="recommendArea Lpickup"><h2>‚¨‚·‚·‚ß‚Ì‹L–</h2>';
+nTmp+='<div id="logly-lift-4276955"></div>';
+nTmp+='</div>';
+nTmp+='</div>';
+$("#newsArea02").html(nTmp);
+}
+var writeEnt=function(){
+var nTmp='';
+nTmp+='<div class="floatL news-content"><ul class="dot pddL5 pddT0" id="AttNews">';
+nTmp+='<li><a href="https://news.nifty.com/topics/rl/180502239264/" onmousedown="return countlink(\'www\',\'topnews_enta_01\',this.href);">‚‹´—R”üq ğ‹ƒLƒƒƒ‰••ˆó?<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jcast/180501239256/" onmousedown="return countlink(\'www\',\'topnews_enta_02\',this.href);">O“c‰Hˆß‚ª¶•ú‘—’†‚É˜‹­‘Å<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jcast/180501239255/" onmousedown="return countlink(\'www\',\'topnews_enta_03\',this.href);">RŒû–Œ‚ß‚®‚èŒ³q–ğ‚ª‰Šã<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/oricon/180501239247/" onmousedown="return countlink(\'www\',\'topnews_enta_04\',this.href);">RŒû–Œ‚ÅƒWƒƒƒj[‚ªÓß</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/mw/180501239246/" onmousedown="return countlink(\'www\',\'topnews_enta_05\',this.href);">ƒWƒ‡ƒjƒf–º‚ªÊ^‰Æ‚Æƒf[ƒg</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/nikkansp/180501239245/" onmousedown="return countlink(\'www\',\'topnews_enta_06\',this.href);">TOKIO‚Ì4l‚«‚å‚¤‹Ù‹}‰ïŒ©</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/oricon/180501239244/" onmousedown="return countlink(\'www\',\'topnews_enta_07\',this.href);">‚Ø‚±Y‹x“ü‚è•ñ ”DP8ƒJŒ</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/myjitsu/180501239235/" onmousedown="return countlink(\'www\',\'topnews_enta_08\',this.href);">IKKO‚ÌˆÓŒ©Õ‚Á‚½âã‚É”á”»</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/oricon/180501239234/" onmousedown="return countlink(\'www\',\'topnews_enta_09\',this.href);">æ‚ç”Ô‘g‚É‚½‚¯‚µŒR’co‰‰</a></li>';
+nTmp+=loglyGetHtml();
+nTmp+='</ul></div>';
+nTmp+='<div class="floatL more-content">';
+nTmp+='<dl class="txtaC box4"><dt class="pddT5"><a href="https://news.nifty.com/article/entame/999/12180-670221/photo/" onmousedown="return countlink(\'www\',\'topnews_enta_photo\',this.href);"><img src="/cms_image/niftop/entamePhoto/12180-670221/thumb-12180-670221-entame.jpg" alt="’‡—¢ˆËÑ‚ÌƒXƒ^ƒCƒ‹ƒuƒbƒNA•vE’†”ö–¾Œc‚ªƒCƒPƒƒ“‚ÉÊ‚èŠì‚Ô(NEWSƒ|ƒXƒgƒZƒuƒ“)"  title="’‡—¢ˆËÑ‚ÌƒXƒ^ƒCƒ‹ƒuƒbƒNA•vE’†”ö–¾Œc‚ªƒCƒPƒƒ“‚ÉÊ‚èŠì‚Ô(NEWSƒ|ƒXƒgƒZƒuƒ“)"   /></a></dt><dd class="fontS lineh11"><p><a href="https://news.nifty.com/article/entame/999/12180-670221/photo/" onmousedown="return countlink(\'www\',\'topnews_enta_photo\',this.href);">’‡—¢ˆËÑ‚ÌƒXƒ^ƒCƒ‹ƒuƒbƒNA•vE’†”ö–¾Œc‚ªƒCƒPc(NEWSƒ|ƒXƒgƒZƒuƒ“)</a></p></dd></dl>';
+nTmp+='<div class="recommendArea Lpickup"><h2>‚¨‚·‚·‚ß‚Ì‹L–</h2>';
+nTmp+='<div id="logly-lift-4276955"></div>';
+nTmp+='</div>';
+
+
+
+nTmp+='</div>';
+$("#newsArea03").html(nTmp);
+}
+var writeSpo=function(){
+var nTmp='';
+nTmp+='<div class="floatL news-content"><ul class="dot pddL5 pddT0" id="AttNews">';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239254/" onmousedown="return countlink(\'www\',\'topnews_spor_01\',this.href);">‹l”s‚ê˜AŸ‚Í8‚ÅƒXƒgƒbƒv<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/soccerking/180501239253/" onmousedown="return countlink(\'www\',\'topnews_spor_02\',this.href);">ƒoƒƒeƒbƒŠ‚ªƒj[ƒX‘Ş’cˆÓv<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/tbs/180501239199/" onmousedown="return countlink(\'www\',\'topnews_spor_03\',this.href);">˜I‚Ì14Î‚ª‰H¶’´‚¦ƒWƒƒƒ“ƒv</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/sptv/180501239196/" onmousedown="return countlink(\'www\',\'topnews_spor_04\',this.href);">Š£‹Mm‚ªƒGƒCƒoƒ‹‘Ş’c‚ğ–¾Œ¾</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/fullcount/180501239169/" onmousedown="return countlink(\'www\',\'topnews_spor_05\',this.href);">¼â‘å•ã"Ÿ•‰t"‚Ì—Í‚É‹Áœ±</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/fullcount/180501239157/" onmousedown="return countlink(\'www\',\'topnews_spor_06\',this.href);">‘å’J‚ÌŒª‹•‚³‚ğƒtƒ@ƒ“‚ªÌ^</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/gendai/180501239139/" onmousedown="return countlink(\'www\',\'topnews_spor_07\',this.href);">¼â‘å•ã"’†6“ú‚Åæ”­"’¼‘i?</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/gendai/180501239138/" onmousedown="return countlink(\'www\',\'topnews_spor_08\',this.href);">‹l¬—Ñ‚ª‘Å—¦‚Å‰˜–¼•Ôã</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239127/" onmousedown="return countlink(\'www\',\'topnews_spor_09\',this.href);">¢ŠE‘ì‹… —q‚ªŒˆŸT‚Öio</a></li>';
+nTmp+=loglyGetHtml();
+nTmp+='</ul></div>';
+nTmp+='<div class="floatL more-content">';
+nTmp+='<dl class="txtaC box4"><dt class="pddT5"><a href="https://news.nifty.com/article/sports/999/12213-20180501-50126/photo/" onmousedown="return countlink(\'www\',\'topnews_spor_photo\',this.href);"><img src="/cms_image/niftop/sportsPhoto/12213-20180501-50126/thumb-12213-20180501-50126-sports.jpg" alt="‹l‚Ì˜AŸ‚W‚Å~‚Ü‚éc’†“ú‚ªÚí§‚µ‚Ä‚Q˜AŸ(“Ç”„V•·)"  title="‹l‚Ì˜AŸ‚W‚Å~‚Ü‚éc’†“ú‚ªÚí§‚µ‚Ä‚Q˜AŸ(“Ç”„V•·)"   /></a></dt><dd class="fontS lineh11"><p><a href="https://news.nifty.com/article/sports/999/12213-20180501-50126/photo/" onmousedown="return countlink(\'www\',\'topnews_spor_photo\',this.href);">‹l‚Ì˜AŸ‚W‚Å~‚Ü‚éc’†“ú‚ªÚí§‚µ‚Ä‚Q˜AŸ(“Ç”„V•·)</a></p></dd></dl>';
+nTmp+='<div class="recommendArea Lpickup"><h2>‚¨‚·‚·‚ß‚Ì‹L–</h2>';
+nTmp+='<div id="logly-lift-4276955"></div>';
+nTmp+='</div>';
+nTmp+='</div>';
+$("#newsArea04").html(nTmp);
+}
+var writeWor=function(){
+var nTmp='';
+nTmp+='<div class="floatL news-content"><ul class="dot pddL5 pddT0" id="AttNews">';
+nTmp+='<li><a href="https://news.nifty.com/topics/tbs/180501239257/" onmousedown="return countlink(\'www\',\'topnews_worl_01\',this.href);">“P‹‚ÌˆÔˆÀ•w‘œ‚ğ•ÔŠÒ^”ä<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/wowkorea/180501239233/" onmousedown="return countlink(\'www\',\'topnews_worl_02\',this.href);">ƒiƒbƒc•P‚Ì–…"…‚©‚¯"‚ğ”Û’è</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/tbs/180501239202/" onmousedown="return countlink(\'www\',\'topnews_worl_03\',this.href);">24m”g ‰¢‚ÅƒT[ƒtƒBƒ“V‹L˜^</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180501239189/" onmousedown="return countlink(\'www\',\'topnews_worl_04\',this.href);">ƒgƒ‰ƒ“ƒv‚É•â²Š¯‚ª‰AŒû‚©</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/wowkorea/180501239188/" onmousedown="return countlink(\'www\',\'topnews_worl_05\',this.href);">“ì–k‚ªŠgºŠí‚Ì“P‹‚ğŠJn</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/wowkorea/180501239165/" onmousedown="return countlink(\'www\',\'topnews_worl_06\',this.href);">•¶ •Ä‘å“—Ì‚É"•½˜aÜ‚ğ"</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/tbs/180501239164/" onmousedown="return countlink(\'www\',\'topnews_worl_07\',this.href);">u’¥—pH‘œv’c‘Ì‚ğ”rœ^ŠØ</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/12241/180501239161/" onmousedown="return countlink(\'www\',\'topnews_worl_08\',this.href);">’†‘ƒXƒ}ƒz”Ì”„Œ¸‚ª‰ß‹Å‘å</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180501239143/" onmousedown="return countlink(\'www\',\'topnews_worl_09\',this.href);">ƒhƒ~ƒjƒJ‹¤˜a‘‚ª‘ä˜p‚Æ’fŒğ</a></li>';
+nTmp+=loglyGetHtml();
+nTmp+='</ul></div>';
+nTmp+='<div class="floatL more-content">';
+nTmp+='<dl class="txtaC box4"><dt class="pddT5"><a href="https://news.nifty.com/article/world/999/12198-023345/photo/" onmousedown="return countlink(\'www\',\'topnews_worl_photo\',this.href);"><img src="/cms_image/niftop/worldPhoto/12198-023345/thumb-12198-023345-world.jpg" alt="ƒtƒBƒŠƒsƒ“‚Å“P‹‚ÌuˆÔˆÀ•w‘œvA§ìÒ‚É•ÔŠÒ(TBS)"  title="ƒtƒBƒŠƒsƒ“‚Å“P‹‚ÌuˆÔˆÀ•w‘œvA§ìÒ‚É•ÔŠÒ(TBS)"   /></a></dt><dd class="fontS lineh11"><p><a href="https://news.nifty.com/article/world/999/12198-023345/photo/" onmousedown="return countlink(\'www\',\'topnews_worl_photo\',this.href);">ƒtƒBƒŠƒsƒ“‚Å“P‹‚ÌuˆÔˆÀ•w‘œvA§ìÒ‚É•ÔŠÒ(TBS)</a></p></dd></dl>';
+nTmp+='<div class="recommendArea Lpickup"><h2>‚¨‚·‚·‚ß‚Ì‹L–</h2>';
+nTmp+='<div id="logly-lift-4276955"></div>';
+nTmp+='</div>';
+nTmp+='</div>';
+$("#newsArea05").html(nTmp);
+}
+var writeDom=function(){
+var nTmp='';
+nTmp+='<div class="floatL news-content"><ul class="dot pddL5 pddT0" id="AttNews">';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180502239262/" onmousedown="return countlink(\'www\',\'topnews_dome_01\',this.href);">‘åã‚Ì’†‰›•ª—£‘Ñ‚É”’œˆâ‘Ì<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180502239261/" onmousedown="return countlink(\'www\',\'topnews_dome_02\',this.href);">’E‘– –{B‚Å‚à–³l–¯‰Æö•š<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180502239258/" onmousedown="return countlink(\'www\',\'topnews_dome_03\',this.href);">ƒ–ì¶‚ÌƒgƒL‚É‚Ğ‚È1‰H’a¶<span class="new">NEW</span></a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/mainichi/180501239252/" onmousedown="return countlink(\'www\',\'topnews_dome_04\',this.href);">AV——D16l‚Ìì•i‚ğ”Ì”„’â~</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/tbs/180501239243/" onmousedown="return countlink(\'www\',\'topnews_dome_05\',this.href);">¼•”©E›ñ•‚Ì’j1l•Ûß</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239241/" onmousedown="return countlink(\'www\',\'topnews_dome_06\',this.href);">“ú’†ŠØñ”] 9“ú‚É“Œ‹‚Å‰ï’k</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239240/" onmousedown="return countlink(\'www\',\'topnews_dome_07\',this.href);">’E‘––Œ –@‘Š‚ª’m–‚É’ÂÓ</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180501239238/" onmousedown="return countlink(\'www\',\'topnews_dome_08\',this.href);">©–¯ –ö£—ˆTµ’v‚ÅŒŸ“¢</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jiji/180501239230/" onmousedown="return countlink(\'www\',\'topnews_dome_09\',this.href);">¼E“Œ“ú–{ 3“ú‚Ü‚Å‘å‰JŒx‰ú</a></li>';
+nTmp+=loglyGetHtml();
+nTmp+='</ul></div>';
+nTmp+='<div class="floatL more-content">';
+nTmp+='<dl class="txtaC box4"><dt class="pddT5"><a href="https://news.nifty.com/article/domestic/999/12198-023361/photo/" onmousedown="return countlink(\'www\',\'topnews_dome_photo\',this.href);"><img src="/cms_image/niftop/domesticPhoto/12198-023361/thumb-12198-023361-domestic.jpg" alt="‘¦ˆÊ‚Ü‚Å‚P”NA‹Md‚È’²“x•iE‚ŒäÀg”é˜bh(TBS)"  title="‘¦ˆÊ‚Ü‚Å‚P”NA‹Md‚È’²“x•iE‚ŒäÀg”é˜bh(TBS)"   /></a></dt><dd class="fontS lineh11"><p><a href="https://news.nifty.com/article/domestic/999/12198-023361/photo/" onmousedown="return countlink(\'www\',\'topnews_dome_photo\',this.href);">‘¦ˆÊ‚Ü‚Å‚P”NA‹Md‚È’²“x•iE‚ŒäÀg”é˜bh(TBS)</a></p></dd></dl>';
+nTmp+='<div class="recommendArea Lpickup"><h2>‚¨‚·‚·‚ß‚Ì‹L–</h2>';
+nTmp+='<div id="logly-lift-4276955"></div>';
+nTmp+='</div>';
+nTmp+='</div>';
+$("#newsArea06").html(nTmp);
+}
+var writeTec=function(){
+var nTmp='';
+nTmp+='<div class="floatL news-content"><ul class="dot pddL5 pddT0" id="AttNews">';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239183/" onmousedown="return countlink(\'www\',\'topnews_tech_01\',this.href);">—°‰©R Œx‰úƒŒƒxƒ‹2‚Éˆø‰º‚°</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180501239078/" onmousedown="return countlink(\'www\',\'topnews_tech_02\',this.href);">¢ŠEÅ‚—î‚ÌƒNƒ‚43Î‚Å€‚Ê</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180430238997/" onmousedown="return countlink(\'www\',\'topnews_tech_03\',this.href);">–îìì‚Å’tƒAƒ†‚Ì‘kã–{Ši‰»</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/bcn/180428238602/" onmousedown="return countlink(\'www\',\'topnews_tech_04\',this.href);">”C“V“°ƒXƒCƒbƒ`‰¿Ši‹t“]‰ğÁ</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/yomiuri/180428238508/" onmousedown="return countlink(\'www\',\'topnews_tech_05\',this.href);">–¯ŠÔƒƒPƒbƒg‚Ì‘Å‚¿ã‚°‡‰„</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/bcn/180427238393/" onmousedown="return countlink(\'www\',\'topnews_tech_06\',this.href);">ŠiˆÀ‚Ì‘åŒ^4KƒeƒŒƒr‘±X“oê</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/bcn/180426238200/" onmousedown="return countlink(\'www\',\'topnews_tech_07\',this.href);">”C“V“°VĞ’·‚ÉŒÃìr‘¾˜Y</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/mycom/180426238166/" onmousedown="return countlink(\'www\',\'topnews_tech_08\',this.href);">l‚ªæ‚ê‚é•ÏŒ`ƒƒ{ƒbƒgŠ®¬</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/mycom/180426238143/" onmousedown="return countlink(\'www\',\'topnews_tech_09\',this.href);">GmailƒfƒXƒNƒgƒbƒv”Å‚ğüV</a></li>';
+nTmp+=loglyGetHtml();
+nTmp+='</ul></div>';
+nTmp+='<div class="floatL more-content">';
+nTmp+='<div class="recommendArea Lpickup"><h2>‚¨‚·‚·‚ß‚Ì‹L–</h2>';
+nTmp+='<div id="logly-lift-4276955"></div>';
+nTmp+='</div>';
+nTmp+='</div>';
+$("#newsArea07").html(nTmp);
+}
+var writeItm=function(){
+var nTmp='';
+nTmp+='<div class="floatL news-content"><ul class="dot pddL5 pddT0" id="AttNews">';
+nTmp+='<li><a href="https://news.nifty.com/topics/jtown/180501239149/" onmousedown="return countlink(\'www\',\'topnews_item_01\',this.href);">"lŠÔ‚Ì‚æ‚¤‚È‚¨‚µ‚è"”L˜b‘è</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/12239/180501239148/" onmousedown="return countlink(\'www\',\'topnews_item_02\',this.href);">"•‚É‚Â‚¯‚é•óÎ"ê–å‰ÆŒxà</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/jospa/180501239111/" onmousedown="return countlink(\'www\',\'topnews_item_03\',this.href);">ƒXƒ^ƒo‰u‚¨•Ù“–v’á•]‰¿‚à</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/sirabee/180501239107/" onmousedown="return countlink(\'www\',\'topnews_item_04\',this.href);">‚­‚çõi"100”{Šy‚µ‚Ş"•û–@</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/postseven/180430239049/" onmousedown="return countlink(\'www\',\'topnews_item_05\',this.href);">‰ßè‚È‰^“®‚ÅS’â~ƒŠƒXƒN‚©</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/12239/180430239045/" onmousedown="return countlink(\'www\',\'topnews_item_06\',this.href);">¼‹ˆê‘ã10”NƒLƒX‚È‚µ‚Æ”’</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/sirabee/180430239029/" onmousedown="return countlink(\'www\',\'topnews_item_07\',this.href);">ƒXƒ}ƒz——R‚Ì—£¥‚É‹¤Š´‚à</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/spa/180430239015/" onmousedown="return countlink(\'www\',\'topnews_item_08\',this.href);">ƒVƒFƒAƒnƒEƒX‚Åƒgƒ‰ƒuƒ‹‘±o</a></li>';
+nTmp+='<li><a href="https://news.nifty.com/topics/12239/180430239000/" onmousedown="return countlink(\'www\',\'topnews_item_09\',this.href);">20Î’j‚ª”n‚É«“I–\s^•Ä</a></li>';
+nTmp+=loglyGetHtml();
+nTmp+='</ul></div>';
+nTmp+='<div class="floatL more-content">';
+nTmp+='<dl class="txtaC box4"><dt class="pddT5"><a href="https://news.nifty.com/article/item/999/12175-oznews_1270/photo/" onmousedown="return countlink(\'www\',\'topnews_item_photo\',this.href);"><img src="/cms_image/niftop/itemPhoto/12175-oznews_1270/thumb-12175-oznews_1270-item.jpg" alt="Q-pot CAFE.‚ªƒŠƒjƒ…[ƒAƒ‹IVƒƒjƒ…[‚à(OZmall(ƒIƒYƒ‚[ƒ‹))"  title="Q-pot CAFE.‚ªƒŠƒjƒ…[ƒAƒ‹IVƒƒjƒ…[‚à(OZmall(ƒIƒYƒ‚[ƒ‹))"   /></a></dt><dd class="fontS lineh11"><p><a href="https://news.nifty.com/article/item/999/12175-oznews_1270/photo/" onmousedown="return countlink(\'www\',\'topnews_item_photo\',this.href);">Q-pot CAFE.‚ªƒŠƒjƒ…[ƒAƒ‹Ic(OZmall(ƒIƒYƒ‚[ƒ‹))</a></p></dd></dl>';
+nTmp+='<div class="recommendArea dpz"><div class="areaBox"><div class="areaBoxInner pkg"><dl class="dot"><dt class="ttl"><a onmousedown="return countlink(\'www\',\'topnews_dpz_01\',this.href);" href="http://portal.nifty.com/">ƒfƒCƒŠ[ƒ|[ƒ^ƒ‹Z</a></dt>';
+nTmp+='<dd><a href="http://portal.nifty.com/kiji/180430202742_1.htm" onmousedown="return countlink(\'www\',\'topnews_dpz_02\',this.href);">“Ë‘Ro‘O‚ğ‘—‚è‚Â‚¯‚ç‚ê‚éÅc</a></dd>';
+nTmp+='<dd><a href="http://portal.nifty.com/kiji/180501202751_1.htm" onmousedown="return countlink(\'www\',\'topnews_dpz_03\',this.href);">CŠw—·s‚Ìv‚¢o‚Ì’n‚ğÊƒ‹c</a></dd>';
+nTmp+='<dd><a href="http://portal.nifty.com/kiji/180501202750_1.htm" onmousedown="return countlink(\'www\',\'topnews_dpz_04\',this.href);">ƒ^ƒC‚Ì…ã‰Æ‰®‚Å¬‹›‚ğ•ß‚Ác</a></dd>';
+nTmp+='</dl></div></div></div>';
+nTmp+='</div>';
+$("#newsArea08").html(nTmp);
+}
+loadNTab();
+//]]>
+</script>
+
+
+		<div class="ad_bnr468">
+<!-- /48012543/NIFTY_PC/TOP/MBNR -->
+<div id='div-gpt-ad-1443679865978-2' style='height:60px; width:468px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1443679865978-2'); });
+</script>
+</div>
+		</div>
+
+
+
+		<div id="recommendSvc">
+			<h2 class="hdr">•ÒW•”‚Ì‚¨‚·‚·‚ß</h2>
+			<div class="unit-rec1">
+				<div class="phTxt">
+
+					<div class="ph" style="overflow:hidden;text-align:center;"><a href="https://business.nifty.com/gsh/RXCC/?utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=henshu-waku" onmousedown="return countlink('www','topedttl',this.href);"><img src="/cms_image/niftop/promo-edit/180406250077/syoubu.jpg" height="90" width="120" alt="uƒVƒ‡ƒEƒuv‚Éo‚é‘O‚É’²‚×‚Ä‚©‚çŠ”‚ğ”ƒ‚¨‚¤"  title="uƒVƒ‡ƒEƒuv‚Éo‚é‘O‚É’²‚×‚Ä‚©‚çŠ”‚ğ”ƒ‚¨‚¤"   /></a></div>
+					<div class="txt">
+						<p class="ttl"><a href="https://business.nifty.com/gsh/RXCC/?utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=henshu-waku" onmousedown="return countlink('www','topedttl',this.href);">uƒVƒ‡ƒEƒuv‚Éo‚é‘O‚É<br />’²‚×‚Ä‚©‚çŠ”‚ğ”ƒ‚¨‚¤</a></p>
+						<p>’é‘ƒf[ƒ^ƒoƒ“ƒN‚Ù‚©Šé‹Æî•ñ‚ğˆêŠ‡ŒŸõ</p>
+					</div>
+				</div>
+				<ul class="list-2clm">
+					<li class="odd"><a href="https://business.nifty.com/zenrin/?utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=henshu-waku" onmousedown="return countlink('www','topedtpx_01',this.href);">–¼š‚ª‚í‚©‚éZ‘î’n}</a></li>
+					<li class="even"><a href="https://business.nifty.com/gsh/QNKM/?utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=henshu-waku" onmousedown="return countlink('www','topedtpx_02',this.href);">V»•iEV‹Zpî•ñ’T‚·‚È‚ç</a></li>
+					<li class="odd"><a href="https://business.nifty.com/gsh/telecom21/?utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=henshu-waku" onmousedown="return countlink('www','topedtpx_03',this.href);">“úŒo4†‚Ì‹L–‚Åî•ñûW</a></li>
+					<li class="even"><a href="https://business.nifty.com/gsh/QTST/?utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=henshu-waku" onmousedown="return countlink('www','topedtpx_04',this.href);">Šé‹ÆM—pî•ñ‚ğ’²‚×‚æ‚¤</a></li>
+				</ul>
+			</div>
+		<div class="ad_bnr468">
+<!-- /48012543/NIFTY_PC/TOP/MBNR _2nd-->
+<div id='div-gpt-ad-1443679865978-7' style='height:60px; width:468px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1443679865978-7'); });
+</script>
+</div>
+		</div>
+			</ul>
+			<hr class="border" />
+			<div class="unit-rec3">
+				<div class="unit-2clm">
+					<div class="phTxt clmL">
+						<div class="ph"><a href="http://setsuzoku.nifty.com/koneta_detail/180403000533_1.htm" onmousedown="return countlink('www','topreco_other_01',this.href);"><img src="/cms_image/niftop/promo-image/180406250110/180502_koneta.jpg" height="75" width="100" alt="Twitter&quot;g‚¦‚é&quot;‚Æ•]”»‚Ì‹@”\"  title="Twitter&quot;g‚¦‚é&quot;‚Æ•]”»‚Ì‹@”\"   /></a></div>
+						<ul class="txt">
+							<li><a href="http://setsuzoku.nifty.com/koneta_detail/180403000533_1.htm" onmousedown="return countlink('www','topreco_other_02',this.href);">Twitter&quot;g‚¦‚é&quot;‚Æ•]”»‚Ì‹@”\</a></li>
+							<li><a href="http://setsuzoku.nifty.com/koneta_detail/150907000267_1.htm" onmousedown="return countlink('www','topreco_other_03',this.href);">‚¨–ğ—§‚¿‹L–‚Ü‚Æ‚ß</a></li>
+						</ul>
+					</div>
+					<div class="phTxt clmR">
+						<div class="ph"><a href="https://renta.papy.co.jp/renta/sc/frm/item/107675/?rbc=2&amp;utm_source=nifty&amp;utm_medium=top&amp;utm_campaign=promo_madein_abes" onmousedown="return countlink('www','topreco_other_01',this.href);"><img src="/cms_image/niftop/promo-image/180406250109/20180502_book.jpg" height="75" width="100" alt="‚¢‚´”é‹«‚Ì‘åŒŠwƒAƒrƒXx’TŒA"  title="‚¢‚´”é‹«‚Ì‘åŒŠwƒAƒrƒXx’TŒA"   /></a></div>
+						<ul class="txt">
+							<li><a href="https://renta.papy.co.jp/renta/sc/frm/item/107675/?rbc=2&amp;utm_source=nifty&amp;utm_medium=top&amp;utm_campaign=promo_madein_abes" onmousedown="return countlink('www','topreco_other_02',this.href);">‚¢‚´”é‹«‚Ì‘åŒŠwƒAƒrƒXx’TŒA</a></li>
+							<li><a href="https://renta.papy.co.jp/renta/sc/frm/item/130475/?rbc=2&amp;utm_source=nifty&amp;utm_medium=top&amp;utm_campaign=promo_nagisano_oitoma" onmousedown="return countlink('www','topreco_other_03',this.href);">28ÎŒ³OLl¶ƒŠƒZƒbƒgƒRƒƒfƒB</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="unit-2clm">
+					<div class="phTxt clmL">
+						<div class="ph"><a href="http://nifty.gesoten.com/n/message/information/2707876&amp;utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=promo_vegifru_campain" onmousedown="return countlink('www','topreco_other_01',this.href);"><img src="/cms_image/niftop/promo-image/180406250108/20180501_game_cp.jpg" height="75" width="100" alt="’Š‘I‚Å2000pt‚ª“–‚½‚éI"  title="’Š‘I‚Å2000pt‚ª“–‚½‚éI"   /></a></div>
+						<ul class="txt">
+							<li><a href="http://nifty.gesoten.com/n/message/information/2707876&amp;utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=promo_vegifru_campain" onmousedown="return countlink('www','topreco_other_02',this.href);">’Š‘I‚Å2000pt‚ª“–‚½‚éI</a></li>
+							<li><a href="https://nifty.gesoten.com/opensocial_secure/nifty/site_gacha?utm_source=nifty&amp;utm_medium=nifty_top&amp;utm_campaign=promo_niftygacya" onmousedown="return countlink('www','topreco_other_03',this.href);">–ˆ“ú‰ñ‚¹‚éI•K‚¸‰½‚©‚ ‚½‚éI</a></li>
+						</ul>
+					</div>
+					<div class="phTxt clmR">
+						<div class="ph"><a href="http://uranai.nifty.com/touyo/service170217/?utm_source=0gazo&amp;utm_campaign=niftop_pc_gazowaku" onmousedown="return countlink('www','topreco_other_01',this.href);"><img src="/cms_image/niftop/promo-image/180406250107/1010gazowaku.jpg" height="75" width="100" alt="20–œl‚ª–K‚ê‚é&quot;–PèŠÙ&quot;‚ğ‘ÌŒ±"  title="20–œl‚ª–K‚ê‚é&quot;–PèŠÙ&quot;‚ğ‘ÌŒ±"   /></a></div>
+						<ul class="txt">
+							<li><a href="http://uranai.nifty.com/touyo/service170217/?utm_source=link1&amp;utm_campaign=niftop_pc_gazowaku" onmousedown="return countlink('www','topreco_other_02',this.href);">20–œl‚ª–K‚ê‚é&quot;–PèŠÙ&quot;‚ğ‘ÌŒ±</a></li>
+							<li><a href="http://uranai.nifty.com/total/unmei/shindan/service170210/menu17020098/?utm_source=link2&amp;utm_campaign=niftop_pc_gazowaku" onmousedown="return countlink('www','topreco_other_03',this.href);">’a¶“ú‚Å‚í‚©‚é‚ ‚È‚½‚Ì‘Sh–½</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="unit-2clm" id="rt_per_niftop_image">
+					<div class="phTxt clmL" id="rt_per_niftop_image_1">
+					</div>
+					<div class="phTxt clmR" id="rt_per_niftop_image_2">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	
+		<div id="newsranking">
+			<h2 class="hdr">ƒjƒ…[ƒXƒ‰ƒ“ƒLƒ“ƒO<span class="news_update">00:00 XV</span></h2>
+			<div class="unit-rec1">
+				<div class="list-2clm">
+					<ul class="col colL">
+						<li class="widget_ranking_link rank01">
+							<span class="num">1</span>
+							<a href="https://news.nifty.com/topics/mainichi/180501239252/" onmousedown="return countlink('www','toprank_news_01',this.href);">
+								<p><span>AV——D16l‚Ìì•i‚ğ”Ì”„’â~</span><span class="icon_news badge_new"></span></p>
+							</a>
+						</li>
+						<li class="widget_ranking_link rank02">
+							<span class="num">2</span>
+							<a href="https://news.nifty.com/topics/myjitsu/180501239235/" onmousedown="return countlink('www','toprank_news_02',this.href);">
+								<p><span>IKKO‚ÌˆÓŒ©Õ‚Á‚½âã‚É”á”»</span><span class="icon_news badge_up"></span></p>
+							</a>
+						</li>
+						<li class="widget_ranking_link rank03">
+							<span class="num">3</span>
+							<a href="https://news.nifty.com/topics/nikkansp/180501239245/" onmousedown="return countlink('www','toprank_news_03',this.href);">
+								<p><span>TOKIO‚Ì4l‚ª‚ ‚·‹Ù‹}‰ïŒ©</span><span class="icon_news badge_up"></span></p>
+							</a>
+						</li>
+						<li class="widget_ranking_link rank04">
+							<span class="num">4</span>
+							<a href="https://news.nifty.com/topics/oricon/180501239247/" onmousedown="return countlink('www','toprank_news_04',this.href);">
+								<p><span>RŒû–Œ‚ÅƒWƒƒƒj[‚ªÓß</span><span class="icon_news badge_new"></span></p>
+							</a>
+						</li>
+						<li class="widget_ranking_link rank05">
+							<span class="num">5</span>
+							<a href="https://news.nifty.com/topics/taishu/180501239225/" onmousedown="return countlink('www','toprank_news_05',this.href);">
+								<p><span>uÎ“_v‚ÌˆÓŠO‚È–À‚ğĞ‰î</span><span class="icon_news badge_down"></span></p>
+							</a>
+						</li>
+					</ul>
+					<ul class="col colR">
+						<li class="widget_ranking_link rank06">
+							<span class="num">6</span>
+							<a href="https://news.nifty.com/topics/jcast/180425238004/" onmousedown="return countlink('www','toprank_news_06',this.href);">
+								<p><span>RŒû’B–ç&#034;ZIP&#034;‚Å‚Ì”­Œ¾˜b‘è</span><span class="icon_news badge_up"></span></p>
+							</a>
+						</li>
+						<li class="widget_ranking_link rank07">
+							<span class="num">7</span>
+							<a href="https://news.nifty.com/topics/rl/180501239217/" onmousedown="return countlink('www','toprank_news_07',this.href);">
+								<p><span>ƒAƒbƒR&#034;ğ‚ÉÓ‚ê&#034;”­Œ¾‚É”á”»</span><span class="icon_news badge_down"></span></p>
+							</a>
+						</li>
+						<li class="widget_ranking_link rank08">
+							<span class="num">8</span>
+							<a href="https://news.nifty.com/topics/12239/180501239148/" onmousedown="return countlink('www','toprank_news_08',this.href);">
+								<p><span>&#034;•‚É‚Â‚¯‚é•óÎ&#034;ê–å‰ÆŒxà</span><span class="icon_news badge_new"></span></p>
+							</a>
+						</li>
+						<li class="widget_ranking_link rank09">
+							<span class="num">9</span>
+							<a href="https://news.nifty.com/topics/jiji/180501239242/" onmousedown="return countlink('www','toprank_news_09',this.href);">
+								<p><span>ƒ„ƒ}ƒgHD ’lã‚°‚Å‰c‹Æ‘‰v</span><span class="icon_news badge_up"></span></p>
+							</a>
+						</li>
+						<li class="widget_ranking_link rank10">
+							<span class="num">10</span>
+							<a href="https://news.nifty.com/topics/yomiuri/180501239241/" onmousedown="return countlink('www','toprank_news_10',this.href);">
+								<p><span>“ú’†ŠØñ”] 9“ú‚É“Œ‹‚Å‰ï’k</span><span class="icon_news badge_up"></span></p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="chosa">
+			<h2 class="hdr"><span><a href="http://chosa.nifty.com/" onmousedown="return countlink('www','topchosa_ttl',this.href);">‰½‚Å‚à’²¸’c</a>Œ©‚½‚¢I•·‚«‚½‚¢I’²‚×‚½‚¢I</span></h2>
+			<div class="box">
+				<div class="pddT10">
+					<ul class="dot floatL">
+						<li><a href="http://chosa.nifty.com/travel/chosa_report_A20180427/7/" onmousedown="return countlink('www','topchosa_tpx_01',this.href);">–kŠÖ“Œog‚Ì—«Œ|”\l‚Æ‚¢‚¦‚Î@1ˆÊüüüü</a></li>
+						<li><a href="http://chosa.nifty.com/travel/chosa_report_A20170901/5/" onmousedown="return countlink('www','topchosa_tpx_02',this.href);">“S“¹—·s‚Å—˜—p‚µ‚½‚¢—ñÔ‚Ìl‹Cƒ‰ƒ“ƒLƒ“ƒO 1ˆÊ‚ÍH</a></li>
+					</ul>
+					<p class="floatR pddT25"><a href="http://chosa.nifty.com/cs/catalog/chosa_report-theme/1.htm" onmousedown="return countlink('www','topchosa_tpx_etc',this.href);" class="arrR">‚à‚Á‚ÆŒ©‚é</a></p>
+					<div class="clearBoth"></div>
+				</div>
+				<p class="btmBox pkg">
+					<span class="question"><a href="http://chosa.nifty.com/login-confirm.jsp?enq=Q20180427&amp;utm_source=nifty_top&amp;utm_medium=nifty&amp;utm_campaign=top_chosa" onmousedown="return countlink('www','topchosa_ans',this.href);">D‚«‚ÈÄ‚«‹›‚ÍH</a></span>
+					<span class="btn"><a href="http://chosa.nifty.com/login-confirm.jsp?enq=Q20180427&amp;utm_source=nifty_top&amp;utm_medium=nifty&amp;utm_campaign=top_chosa" onmousedown="return countlink('www','topchosa_ans',this.href);">‰ñ“š‚·‚é</a></span>
+				</p>
+			</div>
+		</div>
+ 
+		<div id="dailyZ">
+			<h2 class="hdr"><span><a href="http://portal.nifty.com/" onmousedown="return countlink('www','topdpz_ttl',this.href);">ƒfƒCƒŠ[ƒ|[ƒ^ƒ‹Z</a></span></h2>
+			<div class="box">
+				<div class="pddT10">
+					<ul class="dot floatL">
+						<li><a href="http://portal.nifty.com/kiji/180430202742_1.htm" onmousedown="return countlink('www','topdpz_tpx_01',this.href);">“Ë‘Ro‘O‚ğ‘—‚è‚Â‚¯‚ç‚ê‚éÅ‚‚Ì¶Šˆ</a></li>
+						<li><a href="http://portal.nifty.com/kiji/180501202751_1.htm" onmousedown="return countlink('www','topdpz_tpx_02',this.href);">CŠw—·s‚Ìv‚¢o‚Ì’n‚ğÊƒ‹ƒ“‚Å‚·‚ğ‚Á‚Äü‚é‚ÆƒGƒ‚‚¢</a></li>
+					</ul>
+					<p class="floatR pddT25"><a class="arrR" href="http://portal.nifty.com/" onmousedown="return countlink('www','topdpz_tpx_etc',this.href);">‚à‚Á‚ÆŒ©‚é</a></p>
+					<div class="clearBoth"></div>
+				</div>
+			</div>
+		</div>
+		<!--/#dailyZ -->
+
+		<!--sexy -->
+		<div class="box" id="sexy">
+			<div class="title pkg hdr" id="gravuretopicTitle">
+				<h2 class="floatL pdd5"><a href="https://sexy.nifty.com/?utm_source=niftyTOP&utm_medium=banner&utm_campaign=topgra_1" onmousedown="return countlink('www','topgra_01',this.href);">ƒAƒCƒhƒ‹EƒOƒ‰ƒrƒA</a></h2>
+			</div>
+			<div id ="gravuretopic" class="pdd10"></div>
+		</div>
+		<!--/#sexy -->
+
+	</div>
+	<!--/#mainContents -->
+
+	<hr />
+
+	<!--subContents -->
+	<div id="subContents">
+
+		<!--banner -->
+		<div class="mrgB5" id="subBnr">
+<!-- /48012543/NIFTY_PC/TOP/RECT -->
+<div id='div-gpt-ad-1443679865978-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1443679865978-0'); });
+</script>
+</div>
+		</div>
+
+		<!--CustomArea -->
+		<div id="CustomArea" class="box2 mrgB10">
+
+			<div class="pdd5">
+				<!--cpn -->
+				<div class="cpn">
+					<div id="takarabakoArea" class="unit" style="display:none"></div>
+					<!--pointArea -->
+					<div id="pointArea" class="unit unit-point logout" style="display:none">
+						<div class="pkg">
+							<div class="pkg-ttl clearfix">
+								<p class="ttl-text point-icon"><a href="https://fun.nifty.com/lp/?utm_source=nifty_top&utm_campaign=rightcolumn&utm_medium=nifty" onmousedown="return countlink('www','topfun_point',this.href);">ƒ|ƒCƒ“ƒg‚ğŠm”F</a></p>
+								<p class="ttl-btn"><a href="https://fun.nifty.com/lp/?utm_source=nifty_top&utm_campaign=rightcolumn&utm_medium=nifty" onmousedown="return countlink('www','topfun_pass',this.href);">ƒ|ƒCƒ“ƒg’Ê’ </a></p>
+							</div>
+							<div class="point-item">
+								<ul class="clearfix">
+									<li><a href="https://fun.nifty.com/research/lp/?utm_source=nifty_top&utm_campaign=rightcolumn_enquete&utm_medium=nifty" onmousedown="return countlink('www','topfun_01',this.href);">ƒAƒ“ƒP[ƒg‚Å’™‚ß‚é</a></li>
+									<li><a href="https://fun.nifty.com/game/?utm_source=nifty_top&utm_campaign=rightcolumn_game&utm_medium=nifty" onmousedown="return countlink('www','topfun_02',this.href);">ƒQ[ƒ€‚Å’™‚ß‚é</a></li>
+									<li><a href="https://fun.nifty.com/af/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=rightcolumn_af" onmousedown="return countlink('www','topfun_03',this.href);">ƒVƒ‡ƒbƒsƒ“ƒOE\‚µ‚İ‚Å’™‚ß‚é</a></li>
+								</ul>
+							</div>
+						</div>
+				<p><a href="https://fun.nifty.com/lp/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=rightcolumn_lp">@niftyƒ|ƒCƒ“ƒgƒ‚[ƒ‹‚Æ‚Í</a></p>
+				<p class="point-yshopping"><a href="https://fun.nifty.com/lp/af/yahoo/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=rightcolumn_yahoo"><img src="images/yshopping.png" alt="Yahoo!ƒVƒ‡ƒbƒsƒ“ƒO"></a></p>
+				<p class="point-tyshopping">‚¨”ƒ‚¢•¨‹àŠz‚Ì<span class="red">0.5“ŠÒŒ³</span></p>
+					</div>
+					<div id="pointArea" class="unit unit-point login" style="display:none">
+						<div class="pkg">
+							<div class="pkg-ttl clearfix">
+								<p class="ttl-text point-icon num"><a href="https://fun.nifty.com/point/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=rightcolumn" onmousedown="return countlink('www','topfun_point',this.href);"></a><span class="pt-unit">pt</span></p>
+								<p class="ttl-btn"><a href="https://fun.nifty.com/point/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=rightcolumn" onmousedown="return countlink('www','topfun_pass',this.href);">ƒ|ƒCƒ“ƒg’Ê’ </a></p>
+							</div>
+							<div class="point-item">
+								<ul class="clearfix">
+									<li><a href="https://fun.nifty.com/research/?utm_source=nifty_top&utm_campaign=rightcolumn&utm_medium=nifty" onmousedown="return countlink('www','topfun_01',this.href);">ƒAƒ“ƒP[ƒg‚Å’™‚ß‚é</a></li>
+									<li><a href="https://fun.nifty.com/game/?utm_source=nifty_top&utm_campaign=rightcolumn_game&utm_medium=nifty" onmousedown="return countlink('www','topfun_02',this.href);">ƒQ[ƒ€‚Å’™‚ß‚é</a></li>
+									<li><a href="https://fun.nifty.com/af/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=rightcolumn_af" onmousedown="return countlink('www','topfun_03',this.href);">ƒVƒ‡ƒbƒsƒ“ƒOE\‚µ‚İ‚Å’™‚ß‚é</a></li>
+								</ul>
+							</div>
+						</div>
+				<p><a href="https://fun.nifty.com/lp/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=rightcolumn_lp">@niftyƒ|ƒCƒ“ƒgƒ‚[ƒ‹‚Æ‚Í</a></p>
+				<p class="point-yshopping"><a href="https://fun.nifty.com/lp/af/yahoo/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=rightcolumn_yahoo"><img src="images/yshopping.png" alt="Yahoo!ƒVƒ‡ƒbƒsƒ“ƒO"></a></p>
+				<p class="point-tyshopping">‚¨”ƒ‚¢•¨‹àŠz‚Ì<span class="red">0.5“ŠÒŒ³</span></p>
+					</div>
+					<!--/pointArea -->
+					<div class="unit rnw" id="rnTakarakujiArea" style="display:none"></div>
+
+					<div class="unit rnw" id="rnSugorokuArea">
+						<div class="pkg">
+							<a class="banner" href="https://www.nifty.com/navi/campaign/sugoroku/" onmousedown="return countlink('www','topsugo_01',this.href);">ƒjƒtƒeƒB‚·‚²‚ë‚­</a>
+							<p class="txt">
+								<span class="pkg title">
+									<span><a href="https://www.nifty.com/navi/campaign/sugoroku/" onmousedown="return countlink('www','topsugo_01',this.href);"><em>ƒjƒtƒeƒB‚·‚²‚ë‚­</em></a></span>
+									<span class="btn"><a href="https://www.nifty.com/niftop/cgi-bin/middle/redirect_sugoroku.cgi" onmousedown="return countlink('www','topsugo_03',this.href);">—V‚Ô</a></span>
+								</span>
+								<br />
+								<span class="pkg">
+									<span class="text">–ˆTŠJÃI’Š‘I‚Åƒ|ƒCƒ“ƒg‚ª“–‚½‚é</span>
+								</span>
+							</p>
+						</div>
+					</div>
+
+					<div class="unit rnw" id="rnGamegachaArea">
+						<div class="pkg">
+							<a class="banner" href="https://nifty.gesoten.com/opensocial_secure/nifty/site_gacha?utm_source=nifty&utm_medium=nifty_top&utm_campaign=toppage_migi_niftygacya" onmousedown="return countlink('www','topgacha_01',this.href);">@niftyƒQ[ƒ€ƒKƒ`ƒƒ</a>
+							<p class="txt">
+								<span class="pkg title">
+									<span><a href="https://nifty.gesoten.com/opensocial_secure/nifty/site_gacha?utm_source=nifty&utm_medium=nifty_top&utm_campaign=toppage_migi_niftygacya" onmousedown="return countlink('www','topgacha_01',this.href);"><em>@niftyƒQ[ƒ€ƒKƒ`ƒƒ</em></a></span>
+									<span class="btn"><a href="https://nifty.gesoten.com/opensocial_secure/nifty/site_gacha?utm_source=nifty&utm_medium=nifty_top&utm_campaign=toppage_migi_niftygacya" onmousedown="return countlink('www','topgacha_03',this.href);">—V‚Ô</a></span>
+								</span>
+								<br />
+								<span class="pkg">
+									<span class="text">–ˆ“ú‚Ü‚í‚¹‚éI•K‚¸‰½‚©“–‚½‚é</span>
+								</span>
+							</p>
+						</div>
+					</div>
+
+					<div class="unit rnw" id="rnHakoniwaArea">
+						<div class="pkg">
+							<a class="banner" href="https://game.nifty.com/trackings/212" onmousedown="return countlink('www','toppot_01',this.href);">ƒjƒtƒeƒB” ’ë</a>
+							<p class="txt">
+								<span class="pkg title">
+									<span><a href="https://game.nifty.com/trackings/212" onmousedown="return countlink('www','toppot_01',this.href);"><em>ƒjƒtƒeƒB” ’ë</em></a></span>
+									<span class="btn"><a href="https://game.nifty.com/trackings/212" onmousedown="return countlink('www','toppot_03',this.href);">—V‚Ô</a></span>
+								</span>
+								<br />
+								<span class="pkg"><span class="text">–Ø‚ğˆç‚Ä‚Ä©•ª‚¾‚¯‚Ì’ë‚ğ‚Â‚­‚ë‚¤</span></span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--/cpn -->
+			</div>
+		</div>
+		<!--/CustomArea -->
+
+		<!--niftyInfo -->
+		<div class="box" id="niftyInfo">
+
+<!-- /48012543/NIFTY_PC/TOP/RECT_2nd -->
+<div id='div-gpt-ad-1443679865978-1'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1443679865978-1'); });
+</script>
+</div>
+
+			<br />
+			<h2 class="hdr">‰ïˆõƒTƒ|[ƒg</h2>
+			<div class="pdd10">
+
+				<!--newsFlash -->
+				<ul class="dot">
+					<li><p><a href="http://support.nifty.com/cs/suptopics/detail/170127479080/1.htm" onmousedown="return countlink('www','topinfo_pre_01',this.href);">@nifty MOBILE(YM) G4 ’èŠz‚É‚Ë‚ñƒvƒ‰ƒ“‚ÌI—¹</a></p></li>
+					<li><p><a href="http://qa.nifty.com/cs/catalog/faq_nqa/qid_11623/1.htm?ntop" onmousedown="return countlink('www','topinfo_pre_02',this.href);">@nifty‚Ö‚Ì“o˜^“à—e‚Ì•ÏX‚ğ‚µ‚½‚¢</a></p></li>
+					<li><p><a href="http://qa.nifty.com/cs/catalog/faq_nqa/qid_10449/1.htm?ntop" onmousedown="return countlink('www','topinfo_pre_03',this.href);">ƒjƒtƒeƒB‚Ì¿‹‹àŠz‚Ì“à–ó‚ğŠm”F‚µ‚½‚¢</a></p></li>
+					<li><p><a href="http://support.nifty.com/support/supinfo/" onmousedown="return countlink('www','topinfo_tro_01',this.href);" rel="nofollow">ƒgƒ‰ƒuƒ‹Eƒƒ“ƒeƒiƒ“ƒXî•ñ</a></p></li>
+				</ul>
+				<!--/newsFlash -->
+			</div>
+
+			<h2 class="hdr">ƒjƒtƒeƒB‚©‚ç‚Ì‚¨’m‚ç‚¹</h2>
+			<div class="pdd10">
+				<!--Customer support -->
+				<ul class="dot">
+					<li><p><a href="http://niftytoposhirase.cocolog-nifty.com/blog/2018/03/web-0128.html" onmousedown="return countlink('www','topinfo_sup_02',this.href);" rel="nofollow">WEBƒT[ƒrƒX–‹Æˆê•”•ªĞ‚Ì‚¨’m‚ç‚¹</a></p></li>
+					<li><p><a href="http://niftytoposhirase.cocolog-nifty.com/blog/2018/03/nifty-6b53.html" onmousedown="return countlink('www','topinfo_sup_03',this.href);" rel="nofollow">@niftyƒc[ƒ‹ƒo[ƒTƒ|[ƒgI—¹‚Ì‚¨’m‚ç‚¹</a></p></li>
+					<li><p><a href="http://niftytoposhirase.cocolog-nifty.com/blog/2017/12/search-3015.html" onmousedown="return countlink('www','topinfo_sup_04',this.href);" rel="nofollow">uŒŸõ—š—ğv‚Ù‚©‹@”\I—¹‚É‚Â‚¢‚Ä</a></p></li>
+				</ul>
+				<!--/Customer support -->
+			</div>
+			<!--/.pdd10 -->
+
+			<!--/.pdd10 -->
+		</div>
+		<!--/#niftyInfo -->
+
+	</div>
+	<!--/#subContents -->
+
+</div>
+<!--/#contents -->
+
+<hr />
+
+<div id="btmBnr" class="pddB20 txtaC">
+<!-- /48012543/NIFTY_PC/TOP/FBNR -->
+<div id='div-gpt-ad-1443679865978-3'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1443679865978-3'); });
+</script>
+</div>
+</div>
+
+<hr />
+
+<div class="btmInfo"><a href="https://inquiry.nifty.com/webeq/pub/top/topenq" onmousedown="return countlink('www','toprenew_request',this.href);">@niftyƒgƒbƒvƒy[ƒW‚É‚Â‚¢‚ÄA‚²ˆÓŒ©E‚²—v–]‚ğ‚¨•·‚©‚¹‚­‚¾‚³‚¢B</a></div>
+
+<hr />
+
+<table id="svclist" class="pkg" border="0" cellspacing="0">
+	<caption><span><a href="//www.nifty.com/category/" onmousedown="return countlink('www','topcategory_01',this.href);">ƒT[ƒrƒXˆê——</a></span></caption>
+	<tr>
+		<th class="first"><h3><a href="//www.nifty.com/category/news/" onmousedown="return countlink('www','topcategory_01',this.href);">ƒƒfƒBƒAEî•ñŒ¹</a></h3></th>
+		<th><h3><a href="//www.nifty.com/category/business/" onmousedown="return countlink('www','topcategory_01',this.href);">Šé‹ÆEƒ}ƒl[</a></h3></th>
+		<th><h3><a href="//www.nifty.com/category/pc/" onmousedown="return countlink('www','topcategory_01',this.href);">ƒCƒ“ƒ^[ƒlƒbƒgEPC</a></h3></th>
+		<th><h3><a href="//www.nifty.com/category/entertainment/" onmousedown="return countlink('www','topcategory_01',this.href);">ƒGƒ“ƒ^[ƒeƒCƒ“ƒƒ“ƒg</a></h3></th>
+		<th><h3><a href="//www.nifty.com/category/life/" onmousedown="return countlink('www','topcategory_01',this.href);">ƒ‰ƒCƒtƒXƒ^ƒCƒ‹E¶Šˆ</a></h3></th>
+		<th class="last"><h3><a href="//www.nifty.com/category/communication/" onmousedown="return countlink('www','topcategory_01',this.href);">ƒRƒ~ƒ…ƒjƒeƒB</a></h3></th>
+	</tr>
+	<tr>
+		<td class="first">
+			<ul class="dot">
+				<li><a href="https://news.nifty.com/" onmousedown="return countlink('www','topcategory_02',this.href);">ƒjƒ…[ƒX</a></li>
+				<li><a href="http://portal.nifty.com/" onmousedown="return countlink('www','topcategory_02',this.href);">ƒfƒCƒŠ[ƒ|[ƒ^ƒ‹Z</a></li>
+				<li><a href="https://weather.nifty.com/" onmousedown="return countlink('www','topcategory_02',this.href);">“V‹C—\•ñ</a></li>
+				<li><a href="http://map-nifty.com/" onmousedown="return countlink('www','topcategory_02',this.href);">’n}</a></li>
+				<li><a href="http://dictionary.nifty.com/" onmousedown="return countlink('www','topcategory_02',this.href);">«‘</a></li>
+				<li><a href="http://www.excite.co.jp/world/nifty/" onmousedown="return countlink('www','topcategory_02',this.href);">–|–ó</a></li>
+				<li><a href="https://arbeit.nifty.com/" onmousedown="return countlink('www','topcategory_02',this.href);">ƒAƒ‹ƒoƒCƒg</a></li>
+				<li><a href="https://tenshoku.nifty.com/" onmousedown="return countlink('www','topcategory_02',this.href);">“]E</a></li>
+				<li><a href="https://www.nifty.com/navi/smp/" onmousedown="return countlink('www','topcategory_02',this.href);">ƒXƒ}ƒzŒü‚¯ƒT[ƒrƒX</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul class="dot">
+				<li><a href="http://www.nifty.com/biz/" onmousedown="return countlink('www','topcategory_03',this.href);">–@lŒü‚¯ƒT[ƒrƒX</a></li>
+				<li><a href="https://business.nifty.com/" onmousedown="return countlink('www','topcategory_03',this.href);">Šé‹Æî•ñ</a></li>
+				<li><a href="https://hoken.nifty.com/" onmousedown="return countlink('www','topcategory_03',this.href);">•ÛŒ¯”äŠr</a></li>
+				<li><a href="https://money.nifty.com/" onmousedown="return countlink('www','topcategory_03',this.href);">ƒ}ƒl[‘Š’k</a></li>
+				<li><a href="http://card.nifty.com/" onmousedown="return countlink('www','topcategory_03',this.href);">NIFTY Card</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul class="dot">
+				<li><a href="http://nifmo.nifty.com/?utm_source=nifty&amp;utm_medium=house&amp;utm_campaign=house_TOP_NifMo" onmousedown="return countlink('www','topcategory_04',this.href);">NifMoiƒXƒ}ƒzESIMj</a></li>
+				<li><a href="http://setsuzoku.nifty.com/?utm_source=nifty&amp;utm_medium=house&amp;utm_campaign=house_TOP_All" onmousedown="return countlink('www','topcategory_04',this.href);">ƒvƒƒoƒCƒ_[ƒT[ƒrƒX</a></li>
+				<li><a href="http://www.nifty.com/mail/" onmousedown="return countlink('www','topcategory_04',this.href);">ƒ[ƒ‹</a></li>
+				<li><a href="http://www.nifty.com/security/" onmousedown="return countlink('www','topcategory_04',this.href);">ƒZƒLƒ…ƒŠƒeƒB</a></li>
+				<li><a href="http://www.nifty.com/sec24/" onmousedown="return countlink('www','topcategory_04',this.href);">ƒEƒCƒ‹ƒX‘Îô</a></li>
+				<li><a href="http://security.nifty.com/ifilter/" onmousedown="return countlink('www','topcategory_04',this.href);">—LŠQƒTƒCƒgƒuƒƒbƒN</a></li>
+				<li><a href="http://smartserve.nifty.com/?utm_source=niftop&amp;utm_medium=text&amp;utm_campaign=niftop20170619" onmousedown="return countlink('www','topcategory_04',this.href);">ƒXƒ}[ƒgƒT[ƒu</a></li>
+				<li><a href="http://homepage.nifty.com/" onmousedown="return countlink('www','topcategory_04',this.href);">ƒz[ƒ€ƒy[ƒW</a></li>
+				<li><a href="http://365.nifty.com/index.htm" onmousedown="return countlink('www','topcategory_04',this.href);">‚Ü‚©‚¹‚Ä365</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul class="dot">
+				<li><a href="https://game.nifty.com/" onmousedown="return countlink('www','topcategory_05',this.href);">ƒQ[ƒ€</a></li>
+				<li><a href="https://uranai.nifty.com/" onmousedown="return countlink('www','topcategory_05',this.href);">è‚¢</a></li>
+				<li><a href="https://entame.nifty.com/book/" onmousedown="return countlink('www','topcategory_05',this.href);">“dq‘Ğ</a></li>
+				<li><a href="https://entame.nifty.com/douga/" onmousedown="return countlink('www','topcategory_05',this.href);">“®‰æEƒAƒjƒ</a></li>
+				<li><a href="https://keiba.nifty.com/" onmousedown="return countlink('www','topcategory_05',this.href);">‹£”n</a></li>
+				<li><a href="https://fun.nifty.com/lp/" onmousedown="return countlink('www','topcategory_05',this.href);">ƒ|ƒCƒ“ƒgƒ‚[ƒ‹</a></li>
+				<li><a href="https://www.nifty.com/navi/campaign/takarakuji/" onmousedown="return countlink('www','topcategory_05',this.href);">•ó‚­‚¶</a></li>
+				<li><a href="http://www.nifty.com/navi/campaign/sugoroku/" onmousedown="return countlink('www','topcategory_05',this.href);">‚·‚²‚ë‚­</a></li>
+				<li><a href="http://sexy.nifty.com/" onmousedown="return countlink('www','topcategory_05',this.href);">ƒOƒ‰ƒrƒA</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul class="dot">
+				<li><a href="https://hb.afl.rakuten.co.jp/hgc/15cd0c70.3474117d.15cd0c71.858ded8d/?pc=http%3A%2F%2Ftravel.rakuten.co.jp%2F&amp;m=http%3A%2F%2Ftravel.rakuten.co.jp%2F&amp;link_type=text&amp;ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRlc3QiLCJjb2wiOjB9" onmousedown="return countlink('www','topcategory_06',this.href);">—·siŠy“Vj</a></li>
+				<li><a href="https://onsen.nifty.com/" onmousedown="return countlink('www','topcategory_06',this.href);">‰·ò</a></li>
+				<li><a href="http://kids.nifty.com/" onmousedown="return countlink('www','topcategory_06',this.href);">ƒLƒbƒY</a></li>
+				<li><a href="http://myhome.nifty.com/" onmousedown="return countlink('www','topcategory_06',this.href);">•s“®Y</a></li>
+				<li><a href="https://www.nifty.com/navi/shopping/" onmousedown="return countlink('www','topcategory_06',this.href);">ƒVƒ‡ƒbƒsƒ“ƒO</a></li>
+				<li><a href="https://www.nifty.com/nifweekly/" onmousedown="return countlink('www','topcategory_06',this.href);">‚¨Šy‚µ‚İƒ}ƒKƒWƒ“</a></li>
+			</ul>
+		</td>
+		<td class="last">
+			<ul class="dot">
+				<li><a href="http://www.cocolog-nifty.com/" onmousedown="return countlink('www','topcategory_07',this.href);">ƒuƒƒO</a></li>
+				<li><a href="https://game.nifty.com/" onmousedown="return countlink('www','topcategory_07',this.href);">ƒCƒ“ƒ^[ƒ|ƒbƒg</a></li>
+				<li><a href="http://chosa.nifty.com/" onmousedown="return countlink('www','topcategory_07',this.href);">‰½‚Å‚à’²¸’c</a></li>
+				<li><a href="https://oshiete.nifty.com/" onmousedown="return countlink('www','topcategory_07',this.href);">Q&amp;A</a></li>
+				<li><a href="http://tcc.nifty.com/" onmousedown="return countlink('www','topcategory_07',this.href);">ƒJƒ‹ƒ`ƒƒ[ƒJƒ‹ƒ`ƒƒ[</a></li>
+				<li><a href="https://www.facebook.com/nifty" onmousedown="return countlink('www','topcategory_07',this.href);">@niftyŒö®Facebook</a></li>
+			</ul>
+		</td>
+	</tr>
+</table>
+
+<div id="searchBtm">
+	<form id="srchFormBtm" name="srchFormBtm" action="//search.nifty.com/cgi-bin/gosearch.cgi" onsubmit="return searchExeBtm();">
+		<div id="srcHiddenParmBtm" style="height: 1%;">
+			<input name="cflg" value="ŒŸõ" type="hidden" />
+			<input name="ss" value="nifty_top_footer" type="hidden" />
+			<input name="select2" value="ŒŸõ" type="hidden" />
+		</div>
+		<div class="inner">
+			<p id="srchInptElmntBtm">
+				<span id="searchTextBtm"><input id="srchTxtBtm" name="Text" class="srchTxt srchSet" type="text" value="" /><!--
+				--></span><input id="srchBtnBtm" type="submit" value="ŒŸõ" alt="ŒŸõ" class="srchBtnSet" />
+			</p>
+			<div id="srchAssistBtnBtm"><a hidefocus="true" onclick="sgDispListBtm();return false;" href="javascript:void(0);">ƒL[ƒ[ƒh•â•‚ğŠJ‚­</a></div>
+			<div id="srchAssistBtm">
+				<div id="srchAssistBtmInner">
+					<div id="srchAssistBtmDisp" class="window" style="display:none;">
+						<ul id="searchTypeBtm" class="pkg">
+							<li><a href="//search.nifty.com/search/" class="focus" title="ƒEƒFƒu‚ğŒŸõ‚µ‚Ü‚·"><span><strong>ƒEƒFƒu</strong></span></a></li>
+							<li><a href="//search.nifty.com/search/" title="‰æ‘œ‚ğŒŸõ‚µ‚Ü‚·"><span>‰æ‘œ</span></a></li>
+							<li><a href="//search.nifty.com/search/" title="“®‰æ‚ğŒŸõ‚µ‚Ü‚·"><span>“®‰æ</span></a></li>
+							<li><a href="http://tool.nifty.com/dictionary/" title="«‘‚ÅŒŸõ‚µ‚Ü‚·"><span>«‘</span></a></li>
+							<li><a href="http://nifty.its-mo.com/" title="’n}‚ğŒŸõ‚µ‚Ü‚·"><span>’n}</span></a></li>
+							<li><a href="//search.nifty.com/search/" title="@nifty“à‚ğŒŸõ‚µ‚Ü‚·"><span>@nifty“à</span></a></li>
+						</ul>
+						<div id="srchAssistBtmSuggest"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+
+<!--contentsBtm -->
+<div id="contentsBtm">
+
+	<h3 class="dispNone">ƒjƒtƒeƒB‚Ì‚»‚Ì‘¼‚ÌƒT[ƒrƒX</h3>
+	<ul class="pkg">
+		<li><a href="http://www.commercelink.co.jp/" onmousedown="return countlink('www','topfooter',this.href);">ƒRƒ}[ƒXƒŠƒ“ƒN</a></li>
+		<li><a href="http://www.lifemedia.co.jp/" onmousedown="return countlink('www','topfooter',this.href);">ƒ‰ƒCƒtƒƒfƒBƒA</a></li>
+		<li class="noBrd"><a href="https://www.niftylifestyle.co.jp/" onmousedown="return countlink('www','topfooter',this.href);">ƒjƒtƒeƒBƒ‰ƒCƒtƒXƒ^ƒCƒ‹</a></li>
+	</ul>
+	<ul class="pkg">
+		<li><a href="http://www.nifty.co.jp/" onmousedown="return countlink('www','topfooter',this.href);">‰ïĞŠT—v</a></li>
+		<li><a href="http://www.nifty.co.jp/list/all/1.htm" onmousedown="return countlink('www','topfooter',this.href);">ƒjƒ…[ƒXƒŠƒŠ[ƒX</a></li>
+		<li><a href="http://www.nifty.com/biz/" onmousedown="return countlink('www','topfooter',this.href);">–@lŒü‚¯ƒT[ƒrƒX</a></li>
+		<li><a href="http://www.nifty.co.jp/csr/" onmousedown="return countlink('www','topfooter',this.href);">Ğ‰ïEŠÂ‹«Šˆ“®</a></li>
+		<li class="noBrd"><a href="http://www.nifty.co.jp/recruit/" onmousedown="return countlink('www','topfooter',this.href);">Ì—pî•ñ</a></li>
+	</ul>
+</div>
+<!--/#contentsBtm -->
+
+<hr />
+
+<!--footer -->
+<div id="footer" class="mrgT10 mrgB20 pkg">
+
+<h3 class="dispNone">ƒjƒtƒeƒB‚É‚Â‚¢‚Ä</h3>
+
+	<p class="floatL">
+		<span><a href="http://www.nifty.co.jp/privacy/" onmousedown="return countlink('www','topfooter',this.href);">ŒÂlî•ñ•ÛŒìƒ|ƒŠƒV[</a></span>
+		<span><a href="https://www.nifty.com/policy/terms.htm" onmousedown="return countlink('www','topfooter',this.href);">‰ïˆõ‹K–ñ</a></span>
+		<span><a href="https://www.nifty.com/policy/website.htm" onmousedown="return countlink('www','topfooter',this.href);">ƒEƒFƒuƒTƒCƒg‚Ì—˜—p‚É‚Â‚¢‚Ä</a></span>
+	</p>
+	<address class="floatR fontS">&copy;NIFTY Corporation</address>
+
+</div>
+<!--/#footer -->
+
+</div>
+<!--/#container -->
+
+</div>
+<!--/#outline -->
+
+</div>
+<!--/#wrapper -->
+
+<span id="fdata" style="display:none;"></span>
+<script type="text/javascript">
+//<![CDATA[
+	_nInf();
+//]]>
+</script>
+<img src="//track.nifty.com/tr/wb/wfc/WZP" alt="" width="1" height="1" />
+<noscript><p><img src="misc_top/puser/niftylogo.gif" width="1" height="1" alt="" /></p></noscript>
+<script type="text/javascript">
+//<![CDATA[
+$(function(){
+	suggestInit();
+	loadGravueSwitch();
+	clock();
+	NIFTY.niftop.getTakarabakoUserData();
+	var kTmp1="";
+	kTmp1+="Å‚500‰~•ª‚Ìƒ|ƒCƒ“ƒg‚ª“–‚½‚é";
+	kuji_init(kTmp1);
+	NIFTY.niftop.getRemainderPoint();
+});
+//]]>
+</script>
+
+<script type="text/javascript">
+Rtoaster.recommendNow(
+	"rt_isp_niftop_left"
+);
+</script>
+
+
+</body>
+
+<script type="text/javascript">
+//<![CDATA[
+var grvDisp=function(){
+	var gTmp='<ul><li class="pkg"><p id ="gravuretopic01" class="floatL mrgR10"><a href="https://sexy.nifty.com/?utm_source=niftyTOP&amp;utm_medium=banner&amp;utm_campaign=topgra_2" onmousedown="return countlink(\'www\',\'topgra_04\',this.href);"><img src="/cms_image/niftop/svGravure/180425252474/kurihara.jpg" height="60" width="80" alt="¡“ú‚Ì’–Ú‚ÍuŒIŒ´‚İ‚³v"  title="¡“ú‚Ì’–Ú‚ÍuŒIŒ´‚İ‚³v"   /></a></p>';
+	gTmp+='<p id ="gravuretopic02"><a href="https://sexy.nifty.com/?utm_source=niftyTOP&amp;utm_medium=banner&amp;utm_campaign=topgra_2" onmousedown="return countlink(\'www\',\'topgra_05\',this.href);"><strong>¡“ú‚Ì’–Ú‚ÍuŒIŒ´‚İ‚³v</strong><br />ƒ_ƒCƒiƒ}ƒCƒgƒ{ƒfƒB‚ÈƒOƒ‰ƒrƒAƒAƒCƒhƒ‹‚½‚¿‚ÌƒZƒNƒV[ƒVƒ‡ƒbƒg‚ª–ÚI</a></p></li></ul>';
+	gTmp+='<div class="brdB4 pddT5"><p class="txtaR"><span class="idol"><a href="https://sexy.nifty.com/?utm_source=niftyTOP&utm_medium=banner&utm_campaign=topgra_3" onmousedown="return countlink(\'www\',\'topgra_06\',this.href);">ƒAƒCƒhƒ‹E…’…</a></span>\n<span class="adult"><a href="https://sexy.nifty.com/?utm_source=niftyTOP&utm_medium=banner&utm_campaign=topgra_4" onmousedown="return countlink(\'www\',\'topgra_07\',this.href);">ƒAƒ_ƒ‹ƒg</a></span></p></div>';
+	$('#gravuretopic').html(gTmp);
+};
+(function(){
+if(-1 != navigator.userAgent.indexOf("Trident/5.0") && -1 != navigator.userAgent.indexOf("Windows NT 6.1")){
+	window.external.msSiteModeCreateJumplist("ƒwƒbƒhƒ‰ƒCƒ“");
+	window.external.msSiteModeClearJumplist();
+	window.external.msSiteModeAddJumpListItem("@nifty MOBILE(YM) G4 ’èŠz‚É‚Ë‚ñƒvƒ‰ƒ“‚ÌI—¹", "http://clink.nifty.com/r/www/top_msapp/?http://support.nifty.com/cs/suptopics/detail/170127479080/1.htm", "https://www.nifty.com/favicon.ico");
+	window.external.msSiteModeAddJumpListItem("@nifty‚Ö‚Ì“o˜^“à—e‚Ì•ÏX‚ğ‚µ‚½‚¢", "http://clink.nifty.com/r/www/top_msapp/?http://qa.nifty.com/cs/catalog/faq_nqa/qid_11623/1.htm?ntop", "https://www.nifty.com/favicon.ico");
+	window.external.msSiteModeAddJumpListItem("ƒjƒtƒeƒB‚Ì¿‹‹àŠz‚Ì“à–ó‚ğŠm”F‚µ‚½‚¢", "http://clink.nifty.com/r/www/top_msapp/?http://qa.nifty.com/cs/catalog/faq_nqa/qid_10449/1.htm?ntop", "https://www.nifty.com/favicon.ico");
+	window.external.msSiteModeShowJumplist();
+}
+})();
+
+var adkujiData=function(){
+	var tmp="";
+	tmp+='<div class="result scene"><p class="otokuPR kujiImg"><a href="https://fun.nifty.com/lp/?utm_source=nifty_top&utm_medium=nifty&utm_campaign=takarakuji"><img src="/cms_image/niftop/nifkujiAd/180301245562/180316-20_pointmall.gif" height="188" width="300" alt="ƒ|ƒCƒ“ƒg‚ğ’™‚ß‚Ä@nifty—˜—p—¿‹à‚ğˆÀ‚­‚µ‚æ‚¤"  title="ƒ|ƒCƒ“ƒg‚ğ’™‚ß‚Ä@nifty—˜—p—¿‹à‚ğˆÀ‚­‚µ‚æ‚¤"   /></a></p></div>';
+	return tmp;
+}
+
+var kujiHoliDate=function(){
+	var data; 
+	data = {"date":["","20181223","20181123","20181103","20180811","20180505","20180504","20180503","20180429","20180211","20180101"]};
+	return data;
+};
+//]]>
+</script>
+</html><!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="ja"><head><meta content="&#19990;&#30028;&#20013;&#12398;&#12354;&#12425;&#12422;&#12427;&#24773;&#22577;&#12434;&#26908;&#32034;&#12377;&#12427;&#12383;&#12417;&#12398;&#12484;&#12540;&#12523;&#12434;&#25552;&#20379;&#12375;&#12390;&#12356;&#12414;&#12377;&#12290;&#12373;&#12414;&#12374;&#12414;&#12394;&#26908;&#32034;&#27231;&#33021;&#12434;&#27963;&#29992;&#12375;&#12390;&#12289;&#12362;&#25506;&#12375;&#12398;&#24773;&#22577;&#12434;&#35211;&#12388;&#12369;&#12390;&#12367;&#12384;&#12373;&#12356;&#12290;" name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="oNq1Udk2tDKe2iWTDNXLUw==">(function(){window.google={kEI:'o4voWvTvMsTG0ATdpazwAg',kEXPI:'0,1352961,785,531,639,542,304,1017,38,36,366,550,342,287,224,108,308,230,2340794,272,155,32,329294,1294,12383,2349,2506,32692,16114,41,728,7,804,7,4469,636,5471,11344,2981,2196,369,548,466,86,2214,113,2201,3191,20,1047,1375,130,130,5107,444,131,1119,2,579,352,24,287,64,310,304,583,465,402,367,750,355,257,388,789,489,624,1149,154,730,994,621,1,480,38,7,152,412,57,628,8,538,770,66,195,723,51,78,116,333,705,564,452,283,2,442,398,359,83,830,143,201,51,283,25,10,154,187,87,273,24,33,218,272,780,155,180,344,635,891,468,192,195,722,252,6028970,2545,9,5997390,2800261,135,4,1572,549,332,441,2,2,1,2,1,1,77,1,1,900,207,1,1,1,1,1,371,9,304,1,8,1,2,1,1,446,7,64',authuser:0,kscs:'c9c918f0_o4voWvTvMsTG0ATdpazwAg',u:'c9c918f0',kGL:'JP'};google.kHL='ja';})();google.time=function(){return(new Date).getTime()};(function(){google.lc=[];google.li=0;google.getEI=function(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||google.kEI};google.getLEI=function(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b};google.https=function(){return"https:"==window.location.protocol};google.ml=function(){return null};google.wl=function(a,b){try{google.ml(Error(a),!1,b)}catch(d){}};google.log=function(a,b,d,c,g){if(a=google.logUrl(a,b,d,c,g)){b=new Image;var e=google.lc,f=google.li;e[f]=b;b.onerror=b.onload=b.onabort=function(){delete e[f]};google.vel&&google.vel.lu&&google.vel.lu(a);b.src=a;google.li=f+1}};google.logUrl=function(a,b,d,c,g){var e="",f=google.ls||"";d||-1!=b.search("&ei=")||(e="&ei="+google.getEI(c),-1==b.search("&lei=")&&(c=google.getLEI(c))&&(e+="&lei="+c));c="";!d&&google.cshid&&-1==b.search("&cshid=")&&(c="&cshid="+google.cshid);a=d||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&cad="+b+e+f+"&zx="+google.time()+c;/^http:/i.test(a)&&google.https()&&(google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a};}).call(this);(function(){google.y={};google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.lm=[];google.plm=function(a){google.lm.push.apply(google.lm,a)};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};}).call(this);google.f={};var a=window.location,b=a.href.indexOf("#");if(0<=b){var c=a.href.substring(b+1);/(^|&)q=/.test(c)&&-1==c.indexOf("#")&&a.replace("/search?"+c.replace(/(^|&)fp=[^&]*/g,"")+"&cad=h")};</script><style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}
+</style><style>body,td,a,p,.h{font-family:arial,sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#36c}.q{color:#00c}.ts td{padding:0}.ts{border-collapse:collapse}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}a.gb1,a.gb2,a.gb3,a.gb4{color:#11c !important}body{background:#fff;color:black}a{color:#11c;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#36c}a:visited{color:#551a8b}a.gb1,a.gb4{text-decoration:underline}a.gb3:hover{text-decoration:none}#ghead a.gb2:hover{color:#fff !important}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;height:30px}.lsbb{display:block}.ftl,#fll a{display:inline-block;margin:0 12px}.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;border:none;color:#000;cursor:pointer;height:30px;margin:0;outline:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:none}</style><script nonce="oNq1Udk2tDKe2iWTDNXLUw=="></script><link href="/images/branding/product/ico/googleg_lodp.ico" rel="shortcut icon"></head><body bgcolor="#fff"><script nonce="oNq1Udk2tDKe2iWTDNXLUw==">(function(){var src='/images/nav_logo229.png';var iesg=false;document.body.onload = function(){window.n && window.n();if (document.images){new Image().src=src;}
+if (!iesg){document.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focus();}
+}
+})();</script><div id="mngb"> <div id=gbar><nobr><b class=gb1>&#26908;&#32034;</b> <a class=gb1 href="http://www.google.co.jp/imghp?hl=ja&tab=wi">&#30011;&#20687;</a> <a class=gb1 href="http://maps.google.co.jp/maps?hl=ja&tab=wl">&#12510;&#12483;&#12503;</a> <a class=gb1 href="https://play.google.com/?hl=ja&tab=w8">Play</a> <a class=gb1 href="http://www.youtube.com/?gl=JP&tab=w1">YouTube</a> <a class=gb1 href="http://news.google.co.jp/nwshp?hl=ja&tab=wn">&#12491;&#12517;&#12540;&#12473;</a> <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1 href="https://drive.google.com/?tab=wo">&#12489;&#12521;&#12452;&#12502;</a> <a class=gb1 style="text-decoration:none" href="https://www.google.co.jp/intl/ja/options/"><u>&#12418;&#12387;&#12392;&#35211;&#12427;</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.co.jp/history/optout?hl=ja" class=gb4>&#12454;&#12455;&#12502;&#23653;&#27508;</a> | <a  href="/preferences?hl=ja" class=gb4>&#35373;&#23450;</a> | <a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=ja&passive=true&continue=http://www.google.com/" class=gb4>&#12525;&#12464;&#12452;&#12531;</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div> </div><center><br clear="all" id="lgpd"><div id="lga"><img alt="Google" height="92" src="/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" style="padding:28px 0 14px" width="272" id="hplogo" onload="window.lol&&lol()"><br><br></div><form action="/search" name="f"><table cellpadding="0" cellspacing="0"><tr valign="top"><td width="25%">&nbsp;</td><td align="center" nowrap=""><input name="ie" value="ISO-8859-1" type="hidden"><input value="ja" name="hl" type="hidden"><input name="source" type="hidden" value="hp"><input name="biw" type="hidden"><input name="bih" type="hidden"><div class="ds" style="height:32px;margin:4px 0"><input style="color:#000;margin:0;padding:5px 8px 0 6px;vertical-align:top" autocomplete="off" class="lst" value="" title="Google &#26908;&#32034;" maxlength="2048" name="q" size="57"></div><br style="line-height:0"><span class="ds"><span class="lsbb"><input class="lsb" value="Google &#26908;&#32034;" name="btnG" type="submit"></span></span><span class="ds"><span class="lsbb"><input class="lsb" value="I'm Feeling Lucky" name="btnI" onclick="if(this.form.q.value)this.checked=1; else top.location='/doodles/'" type="submit"></span></span></td><td class="fl sblc" align="left" nowrap="" width="25%"><a href="/advanced_search?hl=ja&amp;authuser=0">&#26908;&#32034;&#12458;&#12503;&#12471;&#12519;&#12531;</a><a href="/language_tools?hl=ja&amp;authuser=0">&#35328;&#35486;&#12484;&#12540;&#12523;</a></td></tr></table><input id="gbv" name="gbv" type="hidden" value="1"></form><div id="gac_scont"></div><div style="font-size:83%;min-height:3.5em"><br></div><span id="footer"><div style="font-size:10pt"><div style="margin:19px auto;text-align:center" id="fll"><a href="/intl/ja/ads/">&#24195;&#21578;&#25522;&#36617;</a><a href="http://www.google.co.jp/intl/ja/services/">&#12499;&#12472;&#12493;&#12473; &#12477;&#12522;&#12517;&#12540;&#12471;&#12519;&#12531;</a><a href="https://plus.google.com/115899767381375908215" rel="publisher">+Google</a><a href="/intl/ja/about.html">Google &#12395;&#12388;&#12356;&#12390;</a><a href="http://www.google.com/setprefdomain?prefdom=JP&amp;prev=http://www.google.co.jp/&amp;sig=__tTknSEXK5TK-sL4_JkwL-Xy5Zac%3D">Google.co.jp</a></div></div><p style="color:#767676;font-size:8pt">&copy; 2018 - <a href="/intl/ja/policies/privacy/">&#12503;&#12521;&#12452;&#12496;&#12471;&#12540;</a> - <a href="/intl/ja/policies/terms/">&#35215;&#32004;</a></p></span></center><script nonce="oNq1Udk2tDKe2iWTDNXLUw==">(function(){window.google.cdo={height:0,width:0};(function(){var a=window.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.document,d="CSS1Compat"==c.compatMode?c.documentElement:c.body;a=d.clientWidth;b=d.clientHeight}a&&b&&(a!=google.cdo.width||b!=google.cdo.height)&&google.log("","","/client_204?&atyp=i&biw="+a+"&bih="+b+"&ei="+google.kEI);}).call(this);})();</script><div id="xjsd"></div><div id="xjsi"><script nonce="oNq1Udk2tDKe2iWTDNXLUw==">(function(){function c(b){window.setTimeout(function(){var a=document.createElement("script");a.src=b;google.timers&&google.timers.load.t&&google.tick("load",{gen204:"xjsls",clearcut:31});document.getElementById("xjsd").appendChild(a)},0)}google.dljp=function(b,a){google.xjsu=b;c(a)};google.dlj=c;}).call(this);if(!google.xjs){window._=window._||{};window._DumpException=window._._DumpException=function(e){throw e};window._F_installCss=window._._F_installCss=function(c){};google.dljp('/xjs/_/js/k\x3dxjs.hp.en.yGPuXwd9oak.O/m\x3dsb_he,d/am\x3dVDA2/rt\x3dj/d\x3d1/rs\x3dACT90oG1ued2aT2qwoAecRhCTs0m20E-Fg','/xjs/_/js/k\x3dxjs.hp.en.yGPuXwd9oak.O/m\x3dsb_he,d/am\x3dVDA2/rt\x3dj/d\x3d1/rs\x3dACT90oG1ued2aT2qwoAecRhCTs0m20E-Fg');google.xjs=1;}google.pmc={"sb_he":{"agen":true,"cgen":true,"client":"heirloom-hp","dh":true,"dhqt":true,"ds":"","fl":true,"host":"google.com","isbh":28,"jsonp":true,"msgs":{"cibl":"&#26908;&#32034;&#12434;&#12463;&#12522;&#12450;","dym":"&#12418;&#12375;&#12363;&#12375;&#12390;:","lcky":"I\u0026#39;m Feeling Lucky","lml":"&#35443;&#32048;","oskt":"&#20837;&#21147;&#12484;&#12540;&#12523;","psrc":"&#12371;&#12398;&#26908;&#32034;&#12461;&#12540;&#12527;&#12540;&#12489;&#12399;\u003Ca href=\"/history\"\u003E&#12454;&#12455;&#12502;&#23653;&#27508;\u003C/a\u003E&#12363;&#12425;&#21066;&#38500;&#12373;&#12428;&#12414;&#12375;&#12383;","psrl":"&#21066;&#38500;","sbit":"&#30011;&#20687;&#12391;&#26908;&#32034;","srch":"Google &#26908;&#32034;"},"nds":true,"ovr":{},"pq":"","refpd":true,"refspre":true,"rfs":[],"sbpl":24,"sbpr":24,"scd":10,"sce":5,"stok":"m0q9-7amPDsX9DIw1c-vShdOelU"},"d":{},"ZI/YVQ":{},"U5B21g":{},"DPBNMg":{},"YFCs/g":{}};google.x(null,function(){});(function(){var r=[];google.plm(r);})();(function(){var ctx=[]
+;google.jsc && google.jsc.x(ctx);})();</script></div></body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta name="description" content="æ—¥æœ¬æœ€å¤§ç´šã®ãƒãƒ¼ã‚¿ãƒ«ã‚µã‚¤ãƒˆã€‚æ¤œç´¢ã€ã‚ªãƒ¼ã‚¯ã‚·ãƒ§ãƒ³ã€ãƒ‹ãƒ¥ãƒ¼ã‚¹ã€ãƒ¡ãƒ¼ãƒ«ã€ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã€ã‚·ãƒ§ãƒƒãƒ”ãƒ³ã‚°ã€ãªã©80ä»¥ä¸Šã®ã‚µãƒ¼ãƒ“ã‚¹ã‚’å±•é–‹ã€‚ã‚ãªãŸã®ç”Ÿæ´»ã‚’ã‚ˆã‚Šè±Šã‹ã«ã™ã‚‹ã€Œãƒ©ã‚¤ãƒ•ãƒ»ã‚¨ãƒ³ã‚¸ãƒ³ã€ã‚’ç›®æŒ‡ã—ã¦ã„ãã¾ã™ã€‚">
+<meta name="robots" content="noodp">
+<meta name="google-site-verification" content="fsLMOiigp5fIpCDMEVodQnQC7jIY1K3UXW5QkQcBmVs">
+<link rel="canonical" href="https://www.yahoo.co.jp/" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.yahoo.co.jp/">
+<link rel="alternate" href="android-app://jp.co.yahoo.android.yjtop/yahoojapan/home/top">
+<title>Yahoo! JAPAN</title>
+<style type="text/css"><!--
+body{word-break:break-all;font:12px/1.22 "Osaka","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯",Arial,sans-serif;*font-size:small;*font:x-small;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:99%;}
+h1,h2,h3,h4,h5{font-size:100%;}
+#p{width:350px;}
+a{color:#1d3994;text-decoration:none;}
+a:visited{color:#941d55;}
+a:hover{text-decoration:underline;}
+--></style>
+<style type="text/css" media="all"><!--
+form{margin:0;}
+#p{border:1px solid #7e9db9;}
+
+.Util-textCenter{text-align:center}.Util-margin0{margin:0 !important}.Util-marginT0{margin-top:0 !important;}.Alert{position:relative;margin:5px 20px 15px;padding:10px;border:1px solid #ffcf16;background-color:#fefac4}.Alert__title{margin-bottom:10px;font-weight:700;font-size:109%}.Alert__body{line-height:1.5}.Alert__logImage{position:absolute;top:0;left:0}.Button{position:relative;display:inline-block;*display:inline;*zoom:1;box-sizing:border-box;margin:0 auto;padding:6px 1em;border-top:1px solid #979797;border-right:1px solid #979797;border-bottom:1px solid #696969;border-left:1px solid #979797;background:#fff;text-align:center;font-size:109%}.Button:hover{border-top:1px solid #5e5e5e;border-right:1px solid #5e5e5e;border-bottom:1px solid #393939;border-left:1px solid #5e5e5e;text-decoration:none}.Button:after{position:absolute;bottom:0;left:0;display:block;width:100%;height:1px;background:#ddd;content:""}
+
+--></style>
+</head>
+<body link="#1d3994" vlink="#941d55" leftmargin="0" topmargin="0" marginwidth="1" marginheight="0">
+<center>
+<table width="770" border="0" cellspacing="0" cellpadding="0"><tr><td align="center">
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#c8d4e4">
+<tr>
+<td><table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#f9fafe">
+<tr>
+<td width="10%" align="right"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td>
+<td width="80%" align="center"></td>
+<td width="10%" align="right"><a href="https://www.yahoo-help.jp/"><nobr>ãƒ˜ãƒ«ãƒ—</nobr></a></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10"><br>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="//s.yimg.jp/images/top/sp/cgrade/logo-mh-160929.gif" alt="" width="734" height="59" border="0" usemap="#Map">
+<map name="Map">
+<area shape="rect" coords="0,1,45,58" href="https://travel.yahoo.co.jp/?sc_e=ytmh" alt="ãƒˆãƒ©ãƒ™ãƒ«">
+<area shape="rect" coords="81,1,124,58" href="https://auctions.yahoo.co.jp/" alt="ãƒ¤ãƒ•ã‚ªã‚¯!">
+<area shape="rect" coords="159,1,204,58" href="https://shopping.yahoo.co.jp/" alt="ã‚·ãƒ§ãƒƒãƒ”ãƒ³ã‚°">
+<area shape="rect" coords="256,-1,479,59" href="https://www.yahoo.co.jp/" alt="Yahoo! JAPAN">
+<area shape="rect" coords="530,1,576,57" href="https://premium.yahoo.co.jp/" alt="ãƒ—ãƒ¬ãƒŸã‚¢ãƒ ">
+<area shape="rect" coords="605,1,658,57" href="https://card.yahoo.co.jp/service/redirect/top/" alt="ã‚«ãƒ¼ãƒ‰">
+<area shape="rect" coords="687,1,733,57" href="https://mail.yahoo.co.jp/" alt="ãƒ¡ãƒ¼ãƒ«">
+</map></td>
+</tr>
+</table>
+<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="5"><br>
+<!-- SpaceID=0 robot -->
+<!-- SpaceID=0 robot -->
+<!-- SpaceID=0 robot -->
+<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="5"><br>
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#9fb6d5">
+<tr>
+<td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#e9eef4">
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td align="center"><form name="sf1" action="https://search.yahoo.co.jp/search">
+<input type="hidden" name="fr" value="top_table">
+<input type="hidden" name="tid" value="top_table">
+<input type="hidden" name="ei" value="UTF-8">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><table cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td height="15"><input type="text" name="p" id="p" size="20"></td>
+<td><img src="//s.yimg.jp/images/clear.gif" alt="" width="5" height="1">
+<input type="image" name="search" src="//s.yimg.jp/images/top/searchbox/s_w-140325.gif" border="0" alt="ã‚¦ã‚§ãƒ–æ¤œç´¢" title="ã‚¦ã‚§ãƒ–æ¤œç´¢"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="15"></td>
+</tr>
+<tr>
+<td><input type="image" name="isearch" src="//s.yimg.jp/images/top/searchbox/s_i-140325.gif" alt="ç”»åƒ" title="ç”»åƒæ¤œç´¢" width="47" height="21" border="0"><img src="//s.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="msearch" src="//s.yimg.jp/images/top/searchbox/s_m-140325.gif" alt="å‹•ç”»" title="å‹•ç”»æ¤œç´¢" width="47" height="21" border="0"><img src="//s.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="dsearch" src="//s.yimg.jp/images/top/searchbox/s_d-140325.gif" alt="è¾æ›¸" title="è¾æ›¸æ¤œç´¢" width="47" height="21" border="0"><img src="//s.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="ksearch" src="//s.yimg.jp/images/top/searchbox/s_k-140325.gif" alt="çŸ¥æµè¢‹" title="çŸ¥æµè¢‹æ¤œç´¢" width="47" height="21" border="0"><img src="//s.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="csearch" src="//s.yimg.jp/images/top/searchbox/s_mp-140325.gif" alt="åœ°å›³" title="åœ°å›³æ¤œç´¢" width="47" height="21" border="0"><img src="//s.yimg.jp/images/clear.gif" alt="" width="166" height="1"></td>
+</tr>
+</table>
+</form></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#ffcc01">
+<tr>
+<td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#fefbc4">
+<tr><td align="center"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="15"></td></tr>
+<tr><td align="center">
+<nobr>Yahoo! JAPANãƒˆãƒƒãƒ—ãƒšãƒ¼ã‚¸ã®æ©Ÿèƒ½ã‚’æ­£ã—ãã”åˆ©ç”¨ã„ãŸã ãã«ã¯ã€ä¸‹è¨˜ã®ç’°å¢ƒãŒå¿…è¦ã§ã™ã€‚</nobr><br>
+Windowsï¼šInternet Explorer 11.0ä»¥ä¸Š / Chrome æœ€æ–°ç‰ˆ / Firefox æœ€æ–°ç‰ˆ / Microsoft Edgeã€€Macintoshï¼šSafari 9.0ä»¥ä¸Š<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="15"><br>
+â€»Internet Explorer 11.0ä»¥ä¸Šã‚’ã”åˆ©ç”¨ã®å ´åˆã¯ã€ã€Œ<a href="https://www.yahoo-help.jp/app/answers/detail/p/533/a_id/43883">Internet Explorerã®äº’æ›è¡¨ç¤ºã«ã¤ã„ã¦</a>ã€ã‚’å‚è€ƒã«ã€äº’æ›è¡¨ç¤ºã®ç„¡åŠ¹åŒ–ã‚’ãŠè©¦ã—ãã ã•ã„ã€‚<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="15"><br><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="15">
+</td>
+</tr>
+</table></td>
+</tr>
+</table>
+<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10"><br>
+<a href="https://tourdetohoku.yahoo.co.jp/">ã€Œãƒ„ãƒ¼ãƒ«ãƒ»ãƒ‰ãƒ»æ±åŒ—ã€ã«ã‚ãªãŸã‚‚å‚åŠ ã—ã¦ã¿ã¾ã›ã‚“ã‹ï¼Ÿ</a> - <a href="https://rdsig.yahoo.co.jp/travel_kanko/yjtop/toplink/55timesale/RV=1/RU=aHR0cDovL3RyYXZlbC55YWhvby5jby5qcC9zcGVjaWFsL3NhbGUvNTV0aW1lc2FsZS8_c2NfZT15dHRs">ã‚¿ã‚¤ãƒ ã‚»ãƒ¼ãƒ«é–‹å‚¬ä¸­ã€å…¨å›½ã®ãƒ›ãƒ†ãƒ«ã‚„æ—…é¤¨ã‚’ãŠå¾—ã«äºˆç´„</a><br>
+<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#d7e0ff"><tr><td><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="4"><br><img src="//s.yimg.jp/images/clear.gif" alt="" width="10" height="1"><strong>ãƒ‹ãƒ¥ãƒ¼ã‚¹</strong><br><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="4"><br></td></tr><tr><td bgcolor="#9fb6d5"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td></tr></table><table width="100%" cellspacing="10" cellpadding="0"><tr><td><table width="100%" border="0" cellspacing="4" cellpadding="0"><tr><td><font size="-3" color="#666666">0æ™‚38åˆ†æ›´æ–°</font></td></tr><tr><td>ãƒ»<a href="https://news.yahoo.co.jp/pickup/6281032">æ—¥ä¸­éŸ“é¦–è„³ 9æ—¥ã«æ±äº¬ã§ä¼šè«‡<img src="//s.yimg.jp/images/top/sp/cgrade/iconPhoto_150713.gif" alt="å†™çœŸ" width="16" height="12" border="0"></a></td></tr><tr><td>ãƒ»<a href="https://news.yahoo.co.jp/pickup/6281044">è„±èµ° å¯¾å²¸ã®ç„¡äººå®¶å±‹ã«æ½œä¼<img src="//s.yimg.jp/images/top/sp/cgrade/iconPhoto_150713.gif" alt="å†™çœŸ" width="16" height="12" border="0"><img src="//s.yimg.jp/images/top/sp/cgrade/iconNew_150713.gif" width="30" height="12" alt="NEW" border="0"></a></td></tr><tr><td>ãƒ»<a href="https://news.yahoo.co.jp/pickup/6281040">ã²ãé€ƒã’å®¹ç–‘è€… è‡ªå®…ã«éºä½“<img src="//s.yimg.jp/images/top/sp/cgrade/iconPhoto_150713.gif" alt="å†™çœŸ" width="16" height="12" border="0"><img src="//s.yimg.jp/images/top/sp/cgrade/iconNew_150713.gif" width="30" height="12" alt="NEW" border="0"></a></td></tr><tr><td>ãƒ»<a href="https://news.yahoo.co.jp/pickup/6281038">USJç·Šæ€¥åœæ­¢ã€Œä»Šã‚‚è¶³ã®éœ‡ãˆã€<img src="//s.yimg.jp/images/top/sp/cgrade/iconPhoto_150713.gif" alt="å†™çœŸ" width="16" height="12" border="0"><img src="//s.yimg.jp/images/top/sp/cgrade/iconNew_150713.gif" width="30" height="12" alt="NEW" border="0"></a></td></tr><tr><td>ãƒ»<a href="https://news.yahoo.co.jp/pickup/6281047">ã‚®ã‚¿ãƒ¼è€èˆ— ã‚®ãƒ–ã‚½ãƒ³ç ´ç”£ç”³è«‹<img src="//s.yimg.jp/images/top/sp/cgrade/iconPhoto_150713.gif" alt="å†™çœŸ" width="16" height="12" border="0"><img src="//s.yimg.jp/images/top/sp/cgrade/iconNew_150713.gif" width="30" height="12" alt="NEW" border="0"></a></td></tr><tr><td>ãƒ»<a href="https://news.yahoo.co.jp/pickup/6281030">å†…å·2æˆ¦é€£ç™º åŒåƒšã¯ã€Œç„¡è¦–ã€<img src="//s.yimg.jp/images/top/sp/cgrade/iconPhoto_150713.gif" alt="å†™çœŸ" width="16" height="12" border="0"></a></td></tr><tr><td>ãƒ»<a href="https://news.yahoo.co.jp/pickup/6281035">ã‚¸ãƒ£ãƒ‹ãƒ¼ç¤¾é•·ã‚‚è¬ç½ª ç•°ä¾‹å¯¾å¿œ</a></td></tr><tr><td>ãƒ»<a href="https://news.yahoo.co.jp/pickup/6281033">TOKIOã®4äºº 2æ—¥ã«ç·Šæ€¥ä¼šè¦‹<img src="//s.yimg.jp/images/top/sp/cgrade/iconPhoto_150713.gif" alt="å†™çœŸ" width="16" height="12" border="0"></a></td></tr><tr><td><img src="//s.yimg.jp/images/clear.gif" alt="" width="10" height="20"><a href="https://news.yahoo.co.jp/list/?d=20180502&mc=f&mp=f">ã‚‚ã£ã¨è¦‹ã‚‹</a><img src="//s.yimg.jp/images/clear.gif" alt="" width="40" height="1"><a href="https://news.yahoo.co.jp/fc">è¨˜äº‹ä¸€è¦§</a></td></tr></table></td><td width="140" valign="top" bgcolor="#e9eef4"><table width="100%%" cellspacing="0" cellpadding="10"><tr><td><center><a href="https://headlines.yahoo.co.jp/hl?a=20180501-00000061-mai-soci.view-000"><img src="https://lpt.c.yimg.jp/im_siggU_vxLYRmL_MYdwx05u1iLA---x120-y120/amd/20180501-00000061-mai-000-view.jpg" alt="ã€Œç´æ¶¼åºŠã€å§‹ã¾ã‚‹" width="120" height="87" border="0"></a></center><a href="https://headlines.yahoo.co.jp/hl?a=20180501-00000061-mai-soci.view-000">ã€Œç´æ¶¼åºŠã€å§‹ã¾ã‚‹</a><br><font size="-3" color="#666666">5æœˆ1æ—¥19æ™‚40åˆ†é…ä¿¡<br>æ¯æ—¥æ–°è</font></td></tr></table></td></tr></table><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#a0b7d6">
+<tbody><tr>
+<td><table width="100%" border="0" cellpadding="4" cellspacing="0" bgcolor="#e9eef4">
+<tbody><tr>
+<td><table width="100%" cellpadding="2" cellspacing="0">
+<tbody><tr>
+<td width="25%" valign="top"><a href="https://shopping.yahoo.co.jp/?sc_e=ytc">ã‚·ãƒ§ãƒƒãƒ”ãƒ³ã‚°</a></td>
+<td width="25%" valign="top"><a href="https://auctions.yahoo.co.jp/">ãƒ¤ãƒ•ã‚ªã‚¯!</a></td>
+<td width="25%" valign="top"><a href="https://lohaco.jp/?bk=t&sc_e=j_as_ya_tc_n&iscr=1">LOHACO</a></td>
+<td width="25%" valign="top"><a href="https://travel.yahoo.co.jp/?sc_e=ytsl">æ—…è¡Œã€ãƒ›ãƒ†ãƒ«äºˆç´„</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="https://rdsig.yahoo.co.jp/travel_kanko/yjtop_cont/RV=1/RU=aHR0cHM6Ly93d3cuaWt5dS5jb20vaWtDby5hc2h4P2Nvc2lkPWlrMDEwMDAyJnN1cmw9JTJG;_ylt=A2RiVch58mJZ7mAACQR_cQF8">ä¸€ä¼‘.com</a></td>
+<td valign="top"><a href="https://news.yahoo.co.jp/">ãƒ‹ãƒ¥ãƒ¼ã‚¹</a></td>
+<td valign="top"><a href="https://weather.yahoo.co.jp/weather/">å¤©æ°—</a></td>
+<td valign="top"><a href="https://sports.yahoo.co.jp/">ã‚¹ãƒãƒ¼ãƒ„ãƒŠãƒ“</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="https://finance.yahoo.co.jp/">ãƒ•ã‚¡ã‚¤ãƒŠãƒ³ã‚¹</a></td>
+<td valign="top"><a href="https://tv.yahoo.co.jp/">ãƒ†ãƒ¬ãƒ“</a></td>
+<td valign="top"><a href="https://gyao.yahoo.co.jp/">GYAO!</a></td>
+<td valign="top"><a href="https://games.yahoo.co.jp/">ã‚²ãƒ¼ãƒ </a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://yahoo-mbga.jp/?_ref=aff%3Dysm001">Yahoo!ãƒ¢ãƒã‚²ãƒ¼</a></td>
+<td valign="top"><a href="https://map.yahoo.co.jp/">åœ°å›³</a></td>
+<td valign="top"><a href="https://transit.yahoo.co.jp/">è·¯ç·š</a></td>
+<td valign="top"><a href="http://tabelog.com/">é£Ÿã¹ãƒ­ã‚°</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="https://job.yahoo.co.jp/">æ±‚äººã€ã‚¢ãƒ«ãƒã‚¤ãƒˆ</a></td>
+<td valign="top"><a href="https://realestate.yahoo.co.jp/">ä¸å‹•ç”£</a></td>
+<td valign="top"><a href="https://carview.yahoo.co.jp/">è‡ªå‹•è»Š</a></td>
+<td valign="top"><a href="https://textream.yahoo.co.jp/">æ²ç¤ºæ¿</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="https://blogs.yahoo.co.jp/">ãƒ–ãƒ­ã‚°</a></td>
+<td valign="top"><a href="https://beauty.yahoo.co.jp/">ç¾å®¹ã€ãƒ€ã‚¤ã‚¨ãƒƒãƒˆ</a></td>
+<td valign="top"><a href="https://rdsig.yahoo.co.jp/partner/from_ytop/pc/list1/RV=1/RU=aHR0cHM6Ly9wYXJ0bmVyLnlhaG9vLmNvLmpwLw--">æ‹æ„›ã€å©šæ´»</a></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="4" align="right"><strong><a href="https://services.yahoo.co.jp/?mode=pc">&gt;&gt;ã‚µãƒ¼ãƒ“ã‚¹ä¸€è¦§</a></strong></td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+</td>
+<td width="10">&nbsp;</td>
+<td width="350" align="left" valign="top">
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#9fb6d5">
+<tbody><tr>
+<td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="10" background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td>
+<td width="330" background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td>
+<td width="10" background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td>
+</tr>
+<tr>
+<td width="10" background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif">&nbsp;</td>
+<td width="330"><table width="100%" border="0" cellpadding="2" cellspacing="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td colspan="2"><img src="//s.yimg.jp/images/clear.gif" alt="" width="7" height="1"><a href="https://login.yahoo.co.jp/config/login?.src=www&.done=https://www.yahoo.co.jp">ãƒ­ã‚°ã‚¤ãƒ³</a></td>
+</tr>
+<tr>
+<td><img src="//s.yimg.jp/images/clear.gif" alt="" width="7" height="1">IDã§ã‚‚ã£ã¨ä¾¿åˆ©ã«[ <a href="https://account.edit.yahoo.co.jp/registration?.src=www&.done=https%3A%2f%2fwww.yahoo.co.jp">æ–°è¦å–å¾—</a> ]</td>
+<td align="right"><a href="https://account.edit.yahoo.co.jp/eval_profile?.src=www&.done=https%3A%2f%2fwww.yahoo.co.jp%2F"><img src="//s.yimg.jp/images/top/sp/cgrade/info_btn-140325.gif" alt="ç™»éŒ²æƒ…å ±" width="47" height="16" border="0"></a><img src="//s.yimg.jp/images/clear.gif" alt="" width="7" height="1"></td>
+</tr>
+<tr>
+<td colspan="2"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="5"></td>
+</tr>
+<tr>
+<td><img src="//s.yimg.jp/images/clear.gif" alt="" width="7" height="1"><strong><a href="https://mail.yahoo.co.jp/"><img src="//s.yimg.jp/images/top/sp/cgrade/iconMail.gif" alt="Yahoo!ãƒ¡ãƒ¼ãƒ«" width="16" height="16" border="0" align="absmiddle">ãƒ¡ãƒ¼ãƒ«</a></strong> - <strong><a href="https://mail.yahoo.co.jp/promo/">ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å–å¾—</a></strong></td>
+</tr>
+<tr>
+<td colspan="2"><img src="//s.yimg.jp/images/clear.gif" alt="" width="7" height="1"><strong><a href="https://calendar.yahoo.co.jp/">ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼</a></strong> - <strong><a href="https://calendar.yahoo.co.jp/info/guide/">ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã‚’æ´»ç”¨</a></strong></td>
+</tr>
+</tbody></table></td>
+<td width="10" background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif">&nbsp;</td>
+</tr>
+<tr>
+<td width="10" background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td>
+<td width="330" background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td>
+<td width="10" background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td>
+</tr>
+</tbody></table></td>
+</tr>
+<tr>
+<td bgcolor="#ffffff"><img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td>
+</tr>
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tbody><tr>
+<td background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="//s.yimg.jp/images/top/sp/cgrade/icon_point.gif" alt="ãƒã‚¤ãƒ³ãƒˆã‚’ç¢ºèª" width="25" height="16" align="top"><a href="https://points.yahoo.co.jp/" title="ãƒã‚¤ãƒ³ãƒˆã‚’ç¢ºèª">ãƒã‚¤ãƒ³ãƒˆã‚’ç¢ºèª</a></td>
+</tr>
+<tr>
+<td background="//s.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="//s.yimg.jp/images/clear.gif" alt="" width="5" height="1" align="top"><a href="https://lh.login.yahoo.co.jp/" title="ãƒ­ã‚°ã‚¤ãƒ³å±¥æ­´ã‚’ç¢ºèª">ãƒ­ã‚°ã‚¤ãƒ³å±¥æ­´ã‚’ç¢ºèª</a></td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+<img src="//s.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+</td>
+</tr>
+</table>
+<hr size="1" color="#cccccc" width="100%">
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+<tr>
+<td align="center"><nobr><a href="https://about.yahoo.co.jp/">ä¼šç¤¾æ¦‚è¦</a> - <a href="https://about.yahoo.co.jp/ir/">æŠ•è³‡å®¶æƒ…å ±</a> - <a href="https://about.yahoo.co.jp/csr/">ç¤¾ä¼šçš„è²¬ä»»</a> - <a href="https://about.yahoo.co.jp/info/charter/">ä¼æ¥­è¡Œå‹•æ†²ç« </a> - <a href="https://marketing.yahoo.co.jp/">åºƒå‘Šæ²è¼‰ã«ã¤ã„ã¦</a> - <a href="https://about.yahoo.co.jp/hr/">æ¡ç”¨æƒ…å ±</a></nobr></td>
+</tr>
+<tr>
+<td align="center"><a href="https://about.yahoo.co.jp/docs/info/terms/">åˆ©ç”¨è¦ç´„</a> - <a href="https://about.yahoo.co.jp/docs/pr/disclaimer.html">å…è²¬äº‹é …</a> - <a href="https://about.yahoo.co.jp/info/mediastatement/">ãƒ¡ãƒ‡ã‚£ã‚¢ã‚¹ãƒ†ãƒ¼ãƒˆãƒ¡ãƒ³ãƒˆ</a> - <a href="https://about.yahoo.co.jp/docs/info/terms/chapter1.html#cf2nd">ãƒ—ãƒ©ã‚¤ãƒã‚·ãƒ¼ãƒãƒªã‚·ãƒ¼</a></td>
+</tr>
+<tr>
+<td align="center">Copyright (C) 2018 Yahoo Japan Corporation. All Rights Reserved.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+<!-- p02.f8.top.kks.yahoo.co.jp Wed May  2 00:45:39 JST 2018 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="go-import" content="gopl.io git https://github.com/adonovan/gopl.io"></meta>
+  <title>The Go Programming Language</title>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68781809-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <style>
+.bio {
+	font-size:	95%;
+	text-align:	justify;
+}
+.biblio {
+	margin:		0.5em;
+	font-size:	110%;
+	line-height:	130%;
+}
+.center {
+	text-align:	center;
+}
+td {
+	padding:	0.5em 1em 0.5em 1em;
+	vertical-align: top;
+}
+#toc h1 {
+	font-size:	95%;
+	font-weight:    normal;
+}
+hr {
+	border:		0;
+	border-top:	thin solid #ccc
+}
+  </style>
+</head>
+<body>
+<table><tr>
+<td>
+  <a href='http://www.informit.com/store/go-programming-language-9780134190440'><img border='1' src="cover.png" height='600'/></a>
+  <br/>
+  <div style='text-align: center'>
+  <a href='http://www.amazon.com/dp/0134190440'><img border='0' width='150' src="buyfromamazon.png"/></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href='http://www.informit.com/store/go-programming-language-9780134190440'/><img border='0' height='26' src="informit.png"/></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href='http://www.barnesandnoble.com/w/1121601944'><img border='0' width='150' src="barnesnoble.png"/></a>
+  </div>
+</br>
+</td>
+<td width='500'>
+<h1 class='center'>The Go Programming Language</h1>
+<p class='biblio center'>
+Alan A. A. Donovan &middot; Brian W. Kernighan<br/>
+Published Oct 26, 2015 in paperback and Nov 20 in e-book<br/>
+Addison-Wesley; 380pp; ISBN:&nbsp;978-0134190440<br/>
+<tt>authors</tt><tt>&#0064;</tt><tt>gopl.io</tt>
+</p>
+
+<!-- Table of Contents -->
+<div id='toc'>
+<table><tr>
+<td>
+<h1>Contents [<a href='ch1.pdf'/>PDF</a>]</h1>
+<h1>Preface  [<a href='ch1.pdf'/>PDF</a>]</h1>
+<h1>1. Tutorial [<a href='ch1.pdf'/>PDF</a>]</h1>
+<h1>2. Program Structure</h1>
+<h1>3. Basic Data Types</h1>
+<h1>4. Composite Types</h1>
+<h1>5. Functions</h1>
+<h1>6. Methods</h1>
+</td>
+<td>
+<h1>7. Interfaces</h1>
+<h1>8. Goroutines and Channels</h1>
+<h1>9. Concurrency with Shared Variables</h1>
+<h1>10. Packages and the Go Tool</h1>
+<h1>11. Testing</h1>
+<h1>12. Reflection</h1>
+<h1>13. Low-Level Programming</h1>
+<h1>Index  [<a href='ch1.pdf'/>PDF</a>]</h1>
+</td>
+</tr>
+<tr>
+<td colspan='2'>
+<h1>
+  <a href='https://github.com/adonovan/gopl.io/'>Source code</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href='reviews.html'>Reviews</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href='translations.html'>Translations</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href='errata.html'>Errata</a>
+</h1>
+</td>
+</tr>
+</table>
+</div>
+
+<p class="bio">
+Alan Donovan is a Staff Engineer in Google's infrastructure division,
+specializing in software development tools.  Since 2012, he has been
+working on the Go team, designing libraries and tools for static
+analysis.  He is the author of the
+<a href='http://golang.org/s/oracle-user-manual'><code>oracle</code></a>,
+<a href='http://golang.org/lib/godoc/analysis/help.html'><code>godoc -analysis</code></a>,
+<a href='https://github.com/golang/tools/blob/master/refactor/eg/eg.go'><code>eg</code></a>,
+and <a href='https://github.com/golang/tools/blob/master/refactor/rename/rename.go'><code>gorename</code></a> tools.
+</p> 
+
+<p class="bio">
+Brian Kernighan was in the Computing Science Research center at Bell
+Labs until 2000, where he worked on languages and tools for Unix.  He
+is now a professor in the Computer Science Department at Princeton.
+He is the co-author of several books, including
+<a href='http://www.amazon.com/dp/0131103628?tracking_id=disfordig-20'>The C Programming Language</a> and
+<a href='http://www.amazon.com/dp/020161586X?tracking_id=disfordig-20'>The Practice of Programming</a>.
+
+</td>
+</tr></table>
+</body>
+</html>
