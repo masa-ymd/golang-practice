@@ -31,7 +31,7 @@ func (c *LineCounter) Write(p []byte) (int, error) {
 
 func main() {
 	var c *WordCounter
-	fmt.Println(c.Write([]byte("hoge fuga aaa")))
+	fmt.Println(fmt.Fprintf(c, "hoge fuga aaa"))
 	var l *LineCounter
-	fmt.Println(l.Write([]byte("aaa\nbbb")))
+	fmt.Println(fmt.Fprintf(l, "hoge\nfuga"))
 }

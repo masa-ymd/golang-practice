@@ -1,0 +1,13 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<form action="/result" method="post">
+    {{range $var := .Values}}
+	    {{$var}}?:<input type="text" name="{{$var}}"><br>        
+    {{end}}
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
